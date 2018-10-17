@@ -10,9 +10,12 @@ public class Player_Movement_Map : MonoBehaviour {
     bool selected;
 
     bool twoFingers;
+    bool waitingForTouch;
 
     Rigidbody2D rb;
 
+
+    public bool PC;
 
     float dirX, dirY;
 
@@ -30,6 +33,7 @@ public class Player_Movement_Map : MonoBehaviour {
         selected = false;
         twoFingers = false;
         location = transform.position;
+        waitingForTouch = true;
 	}
 	
 	void Update () {
@@ -40,27 +44,50 @@ public class Player_Movement_Map : MonoBehaviour {
             if (selected == false)
             {
                 //For Mobile input
-                if (Input.touchCount > 0)
+
+                if (twoFingers == false)
                 {
-                    touch = Input.GetTouch(0);
-                    if (Input.touchCount > 1) {
-                        twoFingers = true;
+                    if (Input.touchCount == 0 && waitingForTouch == false)
+                    {
+                        print("test");
+                        location = SetPointToMove(touch.position);
+                        waitingForTouch = true;
                     }
                 }
 
-                if (touch.phase == TouchPhase.Ended && twoFingers == false)
+
+
+
+                if (Input.touchCount > 1)
                 {
-                    location = SetPointToMove(touch.position);
+                    twoFingers = true;
+                    touch = new Touch();
+                    waitingForTouch = false;
+
+                }
+                else if (Input.touchCount == 1 && twoFingers == false)
+                {
+                    waitingForTouch = false;
+                    touch = Input.GetTouch(0);
+                }
+                else if (Input.touchCount == 0) {
+                    twoFingers = false;
+                    waitingForTouch = true;
+                    touch = new Touch();
                 }
 
 
 
 
+                //For PC input#
 
-                //For PC input
-                if (Input.GetMouseButtonUp(0)) {
-                    location = SetPointToMove(Input.mousePosition);
+                if (PC) {
+                    if (Input.GetMouseButtonUp(0))
+                    {
+                        location = SetPointToMove(Input.mousePosition);
+                    }
                 }
+                
 
                 MoveToPoint(location); //Sets move towards location
             }
@@ -81,6 +108,7 @@ public class Player_Movement_Map : MonoBehaviour {
                 dirY = Input.acceleration.y * movementSpeed;
             }
         }
+
 
     }
 

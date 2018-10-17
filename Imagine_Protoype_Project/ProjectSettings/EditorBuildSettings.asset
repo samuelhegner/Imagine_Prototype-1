@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cosmos_Scene.unity
     guid: 2f54c00fe69ddaa438dd94fe9335ff0f
+  - enabled: 1
+    path: Assets/Scenes/Art_Test_Scene.unity
+    guid: 12312c1eabd0d5d47bc1ab31611b4194
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scene.unity
+    guid: 864cf7e775652d045b8c858ce12620f7
+  - enabled: 1
+    path: Assets/Scenes/Sean_Test_Scene.unity
+    guid: 0d2c64487cd5d34448fb26ca3fa1f0e2
   m_configObjects: {}

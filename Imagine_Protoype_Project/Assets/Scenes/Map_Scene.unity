@@ -221,6 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilt: 0
   selected: 0
+  PC: 0
   movementSpeed: 1
 --- !u!114 &31182050
 MonoBehaviour:
