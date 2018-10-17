@@ -9,7 +9,7 @@ public class Player_Movement_Map : MonoBehaviour {
     [SerializeField]
     bool selected;
 
-    Vector2 pointToMove;
+    bool twoFingers;
 
     Rigidbody2D rb;
 
@@ -18,6 +18,9 @@ public class Player_Movement_Map : MonoBehaviour {
 
     GameObject SelectedSite;
 
+    Touch touch;
+
+    Vector2 location;
 
     [SerializeField]
     float movementSpeed;
@@ -25,26 +28,41 @@ public class Player_Movement_Map : MonoBehaviour {
 	void Awake () {
         rb = GetComponent<Rigidbody2D>();
         selected = false;
-        pointToMove = transform.position;
+        twoFingers = false;
+        location = transform.position;
 	}
 	
 	void Update () {
 
         if (tilt == false)
         {
+
             if (selected == false)
             {
+                //For Mobile input
                 if (Input.touchCount > 0)
                 {
-                    Touch touch = Input.GetTouch(0);
-
-                    pointToMove = Camera.main.ScreenToWorldPoint(touch.position);
+                    touch = Input.GetTouch(0);
+                    if (Input.touchCount > 1) {
+                        twoFingers = true;
+                    }
                 }
+
+                if (touch.phase == TouchPhase.Ended && twoFingers == false)
+                {
+                    location = SetPointToMove(touch.position);
+                }
+
+
+
+
+
+                //For PC input
                 if (Input.GetMouseButtonUp(0)) {
-                    pointToMove = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    location = SetPointToMove(Input.mousePosition);
                 }
 
-                transform.position = Vector2.MoveTowards(transform.position, pointToMove, movementSpeed * Time.deltaTime);
+                MoveToPoint(location); //Sets move towards location
             }
             else {
                 if (Vector3.Distance(transform.position, SelectedSite.transform.position) > 0.1f)
@@ -79,5 +97,14 @@ public class Player_Movement_Map : MonoBehaviour {
     public void MoveToClosestSite() {
         selected = true;
         SelectedSite = GetComponent<Site_Finder>().closestSite;
-    } 
+    }
+
+    Vector2 SetPointToMove(Vector2 screenPosition) {
+        Vector2 pointToMove = Camera.main.ScreenToWorldPoint(screenPosition);
+        return pointToMove;
+    }
+
+    void MoveToPoint(Vector2 location) {
+        transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
+    }
 }
