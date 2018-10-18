@@ -26,8 +26,6 @@ public class Rope_Creator : MonoBehaviour {
             HingeJoint2D joint = link.GetComponent<HingeJoint2D>();
             joint.connectedBody = previousRB;
 
-
-
             if (i < links - 1)
             {
                 previousRB = link.GetComponent<Rigidbody2D>();

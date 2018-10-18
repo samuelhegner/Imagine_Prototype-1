@@ -16,9 +16,6 @@ public class DrawRope : MonoBehaviour {
         
         Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
         renderer.material = whiteDiffuseMat;
-
-        renderer.startColor = Color.black;
-        renderer.endColor = Color.black;
         renderer.startWidth = width;
         renderer.endWidth = width;
     }
