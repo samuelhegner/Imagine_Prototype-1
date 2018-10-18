@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Site
   - Wind
+  - Link
   layers:
   - Default
   - TransparentFX
