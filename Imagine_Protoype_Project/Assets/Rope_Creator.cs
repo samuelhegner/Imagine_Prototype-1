@@ -12,22 +12,26 @@ public class Rope_Creator : MonoBehaviour {
 
     public int links;
 
-	// Use this for initialization
-	void Start () {
+
+    private void Awake()
+    {
         GenerateRope();
-	}
+    }
+
 
     void GenerateRope() {
 
         Rigidbody2D previousRB = hook;
+        Vector3 lastPos = hook.transform.position;
 
         for (int i = 0; i < links; i++) {
             GameObject link = Instantiate(pref, transform);
             HingeJoint2D joint = link.GetComponent<HingeJoint2D>();
             joint.connectedBody = previousRB;
-
+            joint.GetComponent<Line_Info>().PreviousPoint = lastPos;
             if (i < links - 1)
             {
+                lastPos = link.transform.position;
                 previousRB = link.GetComponent<Rigidbody2D>();
             }
             else {
