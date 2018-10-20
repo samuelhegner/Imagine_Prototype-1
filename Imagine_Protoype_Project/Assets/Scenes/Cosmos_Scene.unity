@@ -255,6 +255,11 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 233059265954106608, guid: ddf712bfe34e39a49a1545c45b13e2e5,
+        type: 2}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
   m_IsPrefabAsset: 0
@@ -286,11 +291,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 367183219}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4578514, y: -35.145428, z: 0.1461029}
+  m_LocalPosition: {x: 7.92, y: -53.38, z: 0.1461029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &367183221
 MonoBehaviour:
@@ -608,7 +613,7 @@ MonoBehaviour:
   PC: 1
   JourneyStarted: 0
   cameraZoomStart: 10
-  risingSpeed: 0
+  risingSpeed: 3
   cameraZoomSpeed: 0.01
   tiltSpeed: 1.5
 --- !u!4 &1429681284
@@ -749,7 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraSpeed: 1
   xOffset: 0
-  yOffset: 5
+  yOffset: 8
 --- !u!95 &1460026553
 Animator:
   serializedVersion: 3
@@ -780,7 +785,7 @@ GameObject:
   - component: {fileID: 1532226103}
   - component: {fileID: 1532226102}
   m_Layer: 0
-  m_Name: Anchor
+  m_Name: Anchor Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -800,7 +805,7 @@ MonoBehaviour:
   hook: {fileID: 1703115234}
   weight: {fileID: 1429681286}
   pref: {fileID: 1244217276345062, guid: f22bd0c90a71e6143abdfcdf5641e5d0, type: 2}
-  links: 10
+  links: 25
 --- !u!50 &1532226103
 Rigidbody2D:
   serializedVersion: 4
@@ -874,7 +879,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532226101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4, y: -35.737988, z: -1}
+  m_LocalPosition: {x: 7, y: -38, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 283013814}
@@ -1045,11 +1050,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.0303
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1057,15 +1062,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalRotation.w
@@ -1102,6 +1107,11 @@ Prefab:
     - target: {fileID: 4728927228598194, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 233059265954106608, guid: ddf712bfe34e39a49a1545c45b13e2e5,
+        type: 2}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddf712bfe34e39a49a1545c45b13e2e5, type: 2}
@@ -1193,7 +1203,7 @@ GameObject:
   - component: {fileID: 2098160640}
   - component: {fileID: 2098160639}
   m_Layer: 0
-  m_Name: Anchor (1)
+  m_Name: Anchor Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1213,7 +1223,7 @@ MonoBehaviour:
   hook: {fileID: 1026525752}
   weight: {fileID: 1429681286}
   pref: {fileID: 1244217276345062, guid: f22bd0c90a71e6143abdfcdf5641e5d0, type: 2}
-  links: 10
+  links: 25
 --- !u!50 &2098160640
 Rigidbody2D:
   serializedVersion: 4
@@ -1287,12 +1297,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2098160638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.1, y: -35.737988, z: -1}
+  m_LocalPosition: {x: -7, y: -38, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1026525755}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129151890
 GameObject:
