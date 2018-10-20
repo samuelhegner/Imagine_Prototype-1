@@ -6,10 +6,10 @@ public class Line_Info : MonoBehaviour {
 
     LineRenderer rend;
 
-    public float width;
+    float width = 0.1f;
 
 
-    public Vector3 PreviousPoint;
+    public GameObject PreviousPoint;
 
 
 	// Use this for initialization
@@ -23,8 +23,16 @@ public class Line_Info : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        rend.positionCount = 2;
-        rend.SetPosition(0, transform.position);
-        rend.SetPosition(1, PreviousPoint);
+
+
+        if (PreviousPoint == null)
+        {
+            Destroy(GetComponent<LineRenderer>());
+        }
+        else {
+            rend.positionCount = 2;
+            rend.SetPosition(0, transform.position);
+            rend.SetPosition(1, PreviousPoint.transform.position);
+        }
 	}
 }
