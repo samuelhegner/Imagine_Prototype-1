@@ -23,7 +23,7 @@ public bool playing;
           _audioManager = GetComponent<AudioManager>();
           _animator = GetComponent<Animator>();
           
-          _audioManager.Play(CurrentJourneyName);
+          _audioManager.Play(CurrentJourneyName, true, 2f);
           playing = true;
           
           
