@@ -18,9 +18,6 @@ public class Spawn_Objects : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //yOffScreen =  cam.pixelHeight;
 
-        //Vector3 SpawnPos = new Vector3(transform.position.x, yOffScreen, transform.position.z);
-        //testSquare.transform.position = SpawnPos;
 	}
 }
