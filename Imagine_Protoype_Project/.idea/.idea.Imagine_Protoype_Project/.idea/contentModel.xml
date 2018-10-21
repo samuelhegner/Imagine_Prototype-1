@@ -17,6 +17,7 @@
         <e p="DrawRay.cs" t="Include" />
         <e p="DrawRope.cs" t="Include" />
         <e p="Line_Info.cs" t="Include" />
+        <e p="PulseSize.cs" t="Include" />
         <e p="Rope_Creator.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Cosmos_Script" t="Include">
