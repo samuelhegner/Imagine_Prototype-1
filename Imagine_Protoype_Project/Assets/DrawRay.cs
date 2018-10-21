@@ -15,8 +15,8 @@ public class DrawRay : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rend = GetComponent<LineRenderer>();
-        Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
-        rend.material = whiteDiffuseMat;
+        //Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
+        //rend.material = whiteDiffuseMat;
         rend.positionCount = 3;
         drawLine = false;
         rend.startWidth = 0.1f;
