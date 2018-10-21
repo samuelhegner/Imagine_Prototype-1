@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_Movement_Cosmos : MonoBehaviour {
 
@@ -14,6 +15,10 @@ public class Player_Movement_Cosmos : MonoBehaviour {
 
     public float cameraZoomSpeed;
     public float tiltSpeed;
+
+
+
+    float timer;
 
     Camera cam;
 
@@ -44,6 +49,12 @@ public class Player_Movement_Cosmos : MonoBehaviour {
             if (cameraZoomStart <= playerHeight - playerStartHeight)
             {
                 cam.orthographicSize += cameraZoomSpeed;
+            }
+
+            timer += Time.deltaTime;
+
+            if (timer > 20) {
+                SceneManager.LoadScene("Map_Scene");
             }
         }
 	}
