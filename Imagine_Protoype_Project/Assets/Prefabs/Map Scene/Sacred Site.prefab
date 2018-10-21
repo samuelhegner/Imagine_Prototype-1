@@ -105,8 +105,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1919812778897414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7444153, y: 0.8173523, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
+  m_LocalPosition: {x: -1.96, y: 1.12, z: 0}
+  m_LocalScale: {x: 0.16653493, y: 0.16653493, z: 3.3306985}
   m_Children:
   - {fileID: 224326508214754714}
   m_Father: {fileID: 0}
@@ -223,7 +223,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!114 &114544197163679450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   site: 0
-  sceneName: 
+  sceneName: Cosmos_Scene
 --- !u!114 &114786744697666228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -414,7 +414,7 @@ RectTransform:
   m_GameObject: {fileID: 1538532633466372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6406474, y: 0.6406474, z: 0.6406474}
   m_Children:
   - {fileID: 224102195465224248}
   - {fileID: 224278942135949144}
@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: 29.42}
+  m_AnchoredPosition: {x: -5, y: -15.203}
   m_SizeDelta: {x: 160, y: 96.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224278942135949144
