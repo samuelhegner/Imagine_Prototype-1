@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed6f5a2d5430e94ea761d6759e7938d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentJourneyName: 
+  CurrentJourneyName: Forest_Journey
   playing: 0
 --- !u!114 &114833080284241724
 MonoBehaviour:
