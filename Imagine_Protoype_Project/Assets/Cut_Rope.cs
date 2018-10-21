@@ -42,6 +42,7 @@ public class Cut_Rope : MonoBehaviour {
         if (numberRopesCut == 2) {
             cutRopes = true;
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement_Cosmos>().JourneyStarted = true;
+            GameObject.FindGameObjectWithTag("Ray").GetComponent<LineRenderer>().enabled = false;
         }
 	}
 }

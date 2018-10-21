@@ -20,6 +20,7 @@ public class Activate_Journey : MonoBehaviour {
     {
         anim.SetTrigger("Start");
         StartCoroutine("StopAnimation");
+        transform.GetChild(0).GetComponent<DrawRay>().drawLine = true;
     }
 
     IEnumerator StopAnimation() {
