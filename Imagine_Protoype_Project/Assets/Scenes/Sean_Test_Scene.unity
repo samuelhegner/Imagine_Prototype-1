@@ -365,6 +365,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224697679522253824, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813624788089720, guid: 0ef57ffeb437abc409689f487511203e,
+        type: 2}
+      propertyPath: CurrentJourneyName
+      value: Forest_Journey
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef57ffeb437abc409689f487511203e, type: 2}
   m_IsPrefabAsset: 0

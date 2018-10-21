@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 [RequireComponent(typeof(AudioManager))]
@@ -74,6 +75,13 @@ public bool playing;
           }
 
 
+     }
+
+
+     public void ReturnToMap() {
+
+          SceneManager.LoadScene("Map_Scene");
+          
      }
 
 

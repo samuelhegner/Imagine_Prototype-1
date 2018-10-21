@@ -8,24 +8,68 @@
         <e p="Audio" t="Include">
           <e p="Audio_Scripts" t="Include">
             <e p="AudioManager.cs" t="Include" />
+            <e p="Journey_Audio_Player.cs" t="Include" />
             <e p="Sound.cs" t="Include" />
           </e>
         </e>
-        <e p="Follow_Player_Camera.cs" t="Include" />
-        <e p="Journey_Audio_Player.cs" t="Include" />
-        <e p="Pinch_Zoom_Camera.cs" t="Include" />
-        <e p="Player_Movement_Cosmos.cs" t="Include" />
-        <e p="Player_Movement_Map.cs" t="Include" />
+        <e p="Cut_Rope.cs" t="Include" />
+        <e p="DisperseCloud.cs" t="Include" />
+        <e p="DrawRay.cs" t="Include" />
+        <e p="DrawRope.cs" t="Include" />
+        <e p="Line_Info.cs" t="Include" />
+        <e p="Rope_Creator.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Cosmos_Script" t="Include">
+            <e p="Activate_Journey.cs" t="Include" />
+            <e p="Player_Movement_Cosmos.cs" t="Include" />
+          </e>
           <e p="Forest_Minigame_Scripts" t="Include">
             <e p="Forest_Branch_Wobbler.cs" t="Include" />
             <e p="Forest_Touch_Manager.cs" t="Include" />
             <e p="Wind_Script.cs" t="Include" />
             <e p="Wind_Tree_Controller.cs" t="Include" />
           </e>
+          <e p="General_Scripts" t="Include">
+            <e p="Follow_Player_Camera.cs" t="Include" />
+            <e p="Pinch_Zoom_Camera.cs" t="Include" />
+          </e>
+          <e p="Map_Scripts" t="Include">
+            <e p="PCSlider_Map.cs" t="Include" />
+            <e p="Player_Movement_Map.cs" t="Include" />
+            <e p="Site_Finder.cs" t="Include" />
+            <e p="Site_Info.cs" t="Include" />
+          </e>
+          <e p="Menu_Scripts" t="Include">
+            <e p="Scene_Change_Menu.cs" t="Include" />
+          </e>
         </e>
-        <e p="Site_Finder.cs" t="Include" />
-        <e p="Site_Info.cs" t="Include" />
+        <e p="Spawn_Objects.cs" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Weight.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
