@@ -221,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilt: 0
   selected: 0
-  PC: 0
+  PC: 1
   movementSpeed: 1
 --- !u!114 &31182050
 MonoBehaviour:
@@ -526,7 +526,7 @@ Prefab:
       objectReference: {fileID: 31182049}
     - target: {fileID: 1919812778897414, guid: 07485b91d5f030b41a6c30bb38b69da8, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07485b91d5f030b41a6c30bb38b69da8, type: 2}
