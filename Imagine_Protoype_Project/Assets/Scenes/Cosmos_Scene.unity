@@ -916,6 +916,70 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1474363431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1751187780992628, guid: 33c4d4e9c946ac44d8d8aa12ffc0c330,
+    type: 2}
+  m_PrefabInternal: {fileID: 1749070765}
+--- !u!60 &1474363432
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1474363431}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.52, y: 1.6457143}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39142856, y: -0.34285715}
+      - {x: 0.5285714, y: -0.32}
+      - {x: 0.6028571, y: -0.29714286}
+      - {x: 0.77428573, y: -0.13142857}
+      - {x: 0.8314286, y: -0.045714285}
+      - {x: 0.8542857, y: -0.0057142857}
+      - {x: 0.8542857, y: 0.22857143}
+      - {x: 0.82, y: 0.3257143}
+      - {x: 0.7228571, y: 0.4}
+      - {x: 0.55142856, y: 0.4}
+      - {x: 0.44285715, y: 0.34285715}
+      - {x: 0.32285714, y: 0.46857142}
+      - {x: 0.17428571, y: 0.5428571}
+      - {x: -0.065714285, y: 0.5428571}
+      - {x: -0.18571429, y: 0.47428572}
+      - {x: -0.24285714, y: 0.42285714}
+      - {x: -0.3857143, y: 0.26857144}
+      - {x: -0.4942857, y: 0.26857144}
+      - {x: -0.5342857, y: 0.25714284}
+      - {x: -0.58, y: 0.24571428}
+      - {x: -0.66571426, y: 0.17714286}
+      - {x: -0.7114286, y: 0.068571426}
+      - {x: -0.7114286, y: -0.08571429}
+      - {x: -0.68285716, y: -0.18857142}
+      - {x: -0.66571426, y: -0.21714285}
+      - {x: -0.6085714, y: -0.2742857}
+      - {x: -0.4942857, y: -0.32}
+      - {x: -0.41428572, y: -0.34285715}
+      - {x: -0.25428572, y: -0.34857142}
+      - {x: -0.19142857, y: -0.4}
+      - {x: -0.07714286, y: -0.45142856}
+      - {x: -0.0028571428, y: -0.46857142}
+      - {x: 0.14, y: -0.46857142}
+      - {x: 0.24285714, y: -0.45142856}
+      - {x: 0.34, y: -0.4}
 --- !u!1 &1532226101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,7 +1299,8 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 61623868099008322, guid: 33c4d4e9c946ac44d8d8aa12ffc0c330, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 33c4d4e9c946ac44d8d8aa12ffc0c330, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1792552845
