@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 212511144025804950}
   - component: {fileID: 114712244887544702}
   m_Layer: 0
-  m_Name: Sacred Site
+  m_Name: (old) Sacred Site
   m_TagString: Site
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
