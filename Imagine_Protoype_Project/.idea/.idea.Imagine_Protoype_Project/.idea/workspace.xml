@@ -36,17 +36,19 @@
       <file leaf-file-name="Map_Load_Manager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="204">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding>
-                <marker date="1540243450445" expanded="false" signature="6:78" ph="..." />
-                <marker date="1540243450445" expanded="true" signature="205:1249" ph="{...}" />
-                <marker date="1540243450445" expanded="true" signature="231:409" ph="{...}" />
-                <marker date="1540243450445" expanded="true" signature="429:686" ph="{...}" />
-                <marker date="1540243450445" expanded="true" signature="750:866" ph="{...}" />
-                <marker date="1540243450445" expanded="true" signature="797:843" ph="/* Debug.Log(scene.name); ... */" />
-                <marker date="1540243450445" expanded="true" signature="904:1242" ph="{...}" />
-                <marker date="1540243450445" expanded="true" signature="1087:1162" ph="{...}" />
+                <marker date="1540245458957" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540245458957" expanded="true" signature="205:1385" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="224:346" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="284:342" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="367:545" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="565:822" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="886:1002" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="933:979" ph="/* Debug.Log(scene.name); ... */" />
+                <marker date="1540245458957" expanded="true" signature="1040:1378" ph="{...}" />
+                <marker date="1540245458957" expanded="true" signature="1223:1298" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -258,12 +260,12 @@
       <workItem from="1539630061233" duration="6136000" />
       <workItem from="1540152328866" duration="679000" />
       <workItem from="1540220321945" duration="18000" />
-      <workItem from="1540239734557" duration="1954000" />
+      <workItem from="1540239734557" duration="2917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27179000" />
+    <option name="totallyTimeSpent" value="28142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,17 +475,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="204">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding>
-            <marker date="1540243450445" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540243450445" expanded="true" signature="205:1249" ph="{...}" />
-            <marker date="1540243450445" expanded="true" signature="231:409" ph="{...}" />
-            <marker date="1540243450445" expanded="true" signature="429:686" ph="{...}" />
-            <marker date="1540243450445" expanded="true" signature="750:866" ph="{...}" />
-            <marker date="1540243450445" expanded="true" signature="797:843" ph="/* Debug.Log(scene.name); ... */" />
-            <marker date="1540243450445" expanded="true" signature="904:1242" ph="{...}" />
-            <marker date="1540243450445" expanded="true" signature="1087:1162" ph="{...}" />
+            <marker date="1540245458957" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540245458957" expanded="true" signature="205:1385" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="224:346" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="284:342" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="367:545" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="565:822" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="886:1002" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="933:979" ph="/* Debug.Log(scene.name); ... */" />
+            <marker date="1540245458957" expanded="true" signature="1040:1378" ph="{...}" />
+            <marker date="1540245458957" expanded="true" signature="1223:1298" ph="{...}" />
           </folding>
         </state>
       </provider>
