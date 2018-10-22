@@ -44,8 +44,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Oceans
+    uniqueID: 2786881117
+    locked: 0
   - name: Map
     uniqueID: 4033062337
+    locked: 0
+  - name: Sites
+    uniqueID: 3542824759
     locked: 0
   - name: Default
     uniqueID: 0
