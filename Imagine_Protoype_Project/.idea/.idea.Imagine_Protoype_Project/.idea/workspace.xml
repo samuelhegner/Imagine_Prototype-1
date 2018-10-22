@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a499c3a3-9b9a-46ad-aa41-f3239773162f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,65 +24,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Forest_Touch_Manager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
+            <state>
               <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Map_Load_Manager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <marker date="1540242330708" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540242330708" expanded="true" signature="205:1228" ph="{...}" />
+                <marker date="1540242330708" expanded="true" signature="231:409" ph="{...}" />
+                <marker date="1540242330708" expanded="true" signature="429:686" ph="{...}" />
+                <marker date="1540242330708" expanded="true" signature="750:847" ph="{...}" />
+                <marker date="1540242330708" expanded="true" signature="885:1221" ph="{...}" />
+                <marker date="1540242330708" expanded="true" signature="1066:1141" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forest_Branch_Wobbler.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="103" selection-start-line="42" selection-start-column="103" selection-end-line="42" selection-end-column="103" />
+            <state>
+              <caret line="42" column="94" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Wind_Tree_Controller.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+            <state relative-caret-position="250">
+              <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+              <folding>
+                <marker date="1539975908608" expanded="false" signature="6:100" ph="..." />
+                <marker date="1539975908608" expanded="true" signature="153:1984" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="280:287" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="342:1491" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="389:686" ph="/* float   DotResult = Vector3.Dot(transform.forward, WindZone.forward); ... */" />
+                <marker date="1539975908608" expanded="true" signature="722:817" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="751:779" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="858:1017" ph="/* float angle = Vector3.Angle(WindZone.transform.forward, transform.position - WindZone.transform.position); ... */" />
+                <marker date="1539975908608" expanded="true" signature="1022:1485" ph="/* if (transform.position.x &gt; WindZone.transform.position.x) { ... */" />
+                <marker date="1539975908608" expanded="true" signature="1524:1979" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="1586:1664" ph="{...}" />
+                <marker date="1539975908608" expanded="true" signature="1694:1778" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Journey_Audio_Player.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
+            <state relative-caret-position="717">
               <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <marker date="1540157254602" expanded="false" signature="6:113" ph="..." />
+                <marker date="1540157254602" expanded="true" signature="207:1754" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="423:658" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="692:951" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="718:820" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="983:1071" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="1104:1287" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="1218:1278" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="1321:1388" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="1429:1749" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="1459:1683" ph="{...}" />
+                <marker date="1540157254602" expanded="true" signature="1597:1670" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="AudioManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
+            <state>
               <caret line="94" selection-start-line="94" selection-end-line="94" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sound.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state>
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -92,12 +130,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,6 +154,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Journey_Audio_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Map_Load_Manager.cs" />
       </list>
     </option>
   </component>
@@ -124,9 +164,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-42" />
-    <option name="y" value="-32" />
+    <option name="x" value="-43" />
+    <option name="y" value="-33" />
     <option name="width" value="1485" />
     <option name="height" value="825" />
   </component>
@@ -159,9 +202,8 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -183,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -192,11 +234,9 @@
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach Unity.Attach to Unity Editor" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -217,11 +257,12 @@
       <workItem from="1539630061233" duration="6136000" />
       <workItem from="1540152328866" duration="679000" />
       <workItem from="1540220321945" duration="18000" />
+      <workItem from="1540239734557" duration="1324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25225000" />
+    <option name="totallyTimeSpent" value="26549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,33 +274,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10872483" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10865672" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +322,76 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="103" selection-start-line="42" selection-start-column="103" selection-end-line="42" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+          <folding>
+            <marker date="1539975908608" expanded="false" signature="6:100" ph="..." />
+            <marker date="1539975908608" expanded="true" signature="153:1984" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="280:287" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="342:1491" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="389:686" ph="/* float   DotResult = Vector3.Dot(transform.forward, WindZone.forward); ... */" />
+            <marker date="1539975908608" expanded="true" signature="722:817" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="751:779" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="858:1017" ph="/* float angle = Vector3.Angle(WindZone.transform.forward, transform.position - WindZone.transform.position); ... */" />
+            <marker date="1539975908608" expanded="true" signature="1022:1485" ph="/* if (transform.position.x &gt; WindZone.transform.position.x) { ... */" />
+            <marker date="1539975908608" expanded="true" signature="1524:1979" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="1586:1664" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="1694:1778" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <marker date="1540157254602" expanded="false" signature="6:113" ph="..." />
+            <marker date="1540157254602" expanded="true" signature="207:1754" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="423:658" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="692:951" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="718:820" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="983:1071" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1104:1287" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1218:1278" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1321:1388" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1429:1749" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1459:1683" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1597:1670" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Forest_Touch_Manager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sound.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/AudioManager.cs" />
@@ -290,50 +401,88 @@
     <entry file="file://$PROJECT_DIR$/Assets/Journey_Audio_Player.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
+        <state>
           <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="103" selection-start-line="42" selection-start-column="103" selection-end-line="42" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
+        <state>
+          <caret line="42" column="94" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
+        <state>
           <caret line="94" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state>
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
+        <state relative-caret-position="717">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <marker date="1540157254602" expanded="false" signature="6:113" ph="..." />
+            <marker date="1540157254602" expanded="true" signature="207:1754" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="423:658" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="692:951" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="718:820" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="983:1071" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1104:1287" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1218:1278" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1321:1388" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1429:1749" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1459:1683" ph="{...}" />
+            <marker date="1540157254602" expanded="true" signature="1597:1670" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="250">
+          <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+          <folding>
+            <marker date="1539975908608" expanded="false" signature="6:100" ph="..." />
+            <marker date="1539975908608" expanded="true" signature="153:1984" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="280:287" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="342:1491" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="389:686" ph="/* float   DotResult = Vector3.Dot(transform.forward, WindZone.forward); ... */" />
+            <marker date="1539975908608" expanded="true" signature="722:817" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="751:779" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="858:1017" ph="/* float angle = Vector3.Angle(WindZone.transform.forward, transform.position - WindZone.transform.position); ... */" />
+            <marker date="1539975908608" expanded="true" signature="1022:1485" ph="/* if (transform.position.x &gt; WindZone.transform.position.x) { ... */" />
+            <marker date="1539975908608" expanded="true" signature="1524:1979" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="1586:1664" ph="{...}" />
+            <marker date="1539975908608" expanded="true" signature="1694:1778" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <marker date="1540242330708" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540242330708" expanded="true" signature="205:1228" ph="{...}" />
+            <marker date="1540242330708" expanded="true" signature="231:409" ph="{...}" />
+            <marker date="1540242330708" expanded="true" signature="429:686" ph="{...}" />
+            <marker date="1540242330708" expanded="true" signature="750:847" ph="{...}" />
+            <marker date="1540242330708" expanded="true" signature="885:1221" ph="{...}" />
+            <marker date="1540242330708" expanded="true" signature="1066:1141" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
