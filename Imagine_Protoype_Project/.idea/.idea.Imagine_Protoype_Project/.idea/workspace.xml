@@ -24,31 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Forest_Touch_Manager.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Forest_Touch_Manager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map_Load_Manager.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="425">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
-                <marker date="1540245458957" expanded="false" signature="6:78" ph="..." />
-                <marker date="1540245458957" expanded="true" signature="205:1385" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="224:346" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="284:342" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="367:545" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="565:822" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="886:1002" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="933:979" ph="/* Debug.Log(scene.name); ... */" />
-                <marker date="1540245458957" expanded="true" signature="1040:1378" ph="{...}" />
-                <marker date="1540245458957" expanded="true" signature="1223:1298" ph="{...}" />
+                <marker date="1540249863714" expanded="false" signature="6:61" ph="..." />
+                <marker date="1540249863714" expanded="true" signature="114:5022" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="544:708" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="777:5014" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="874:2906" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="941:2030" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="1410:1746" ph="/* AudioManager.Master.Play(&quot;Wind&quot;); ... */" />
+                <marker date="1540249863714" expanded="true" signature="1769:1956" ph="/* clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject; ... */" />
+                <marker date="1540249863714" expanded="true" signature="2085:2534" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="2202:2297" ph="/* float rayDistance; ... */" />
+                <marker date="1540249863714" expanded="true" signature="2589:2892" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="2940:3631" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="2991:3393" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="3668:3938" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="4005:4903" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="4112:4889" ph="{...}" />
+                <marker date="1540249863714" expanded="true" signature="4322:4872" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -133,13 +131,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -152,12 +149,12 @@
         <option value="$PROJECT_DIR$/Assets/Wind_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Journey_Audio_Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Map_Load_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" />
       </list>
     </option>
   </component>
@@ -171,8 +168,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-43" />
-    <option name="y" value="-33" />
+    <option name="x" value="11" />
+    <option name="y" value="57" />
     <option name="width" value="1485" />
     <option name="height" value="825" />
   </component>
@@ -260,12 +257,12 @@
       <workItem from="1539630061233" duration="6136000" />
       <workItem from="1540152328866" duration="679000" />
       <workItem from="1540220321945" duration="18000" />
-      <workItem from="1540239734557" duration="2917000" />
+      <workItem from="1540239734557" duration="4082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28142000" />
+    <option name="totallyTimeSpent" value="29307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,6 +326,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2788">
           <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
+          <folding>
+            <marker date="1540249863714" expanded="false" signature="6:61" ph="..." />
+            <marker date="1540249863714" expanded="true" signature="114:5022" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="544:708" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="777:5014" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="874:2906" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="941:2030" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="1410:1746" ph="/* AudioManager.Master.Play(&quot;Wind&quot;); ... */" />
+            <marker date="1540249863714" expanded="true" signature="1769:1956" ph="/* clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject; ... */" />
+            <marker date="1540249863714" expanded="true" signature="2085:2534" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="2202:2297" ph="/* float rayDistance; ... */" />
+            <marker date="1540249863714" expanded="true" signature="2589:2892" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="2940:3631" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="2991:3393" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="3668:3938" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="4005:4903" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="4112:4889" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="4322:4872" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -402,13 +418,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Sound.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Wind_Script.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Journey_Audio_Player.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="164" column="46" selection-start-line="164" selection-start-column="46" selection-end-line="164" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -476,18 +485,32 @@
     <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
-            <marker date="1540245458957" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540245458957" expanded="true" signature="205:1385" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="224:346" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="284:342" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="367:545" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="565:822" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="886:1002" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="933:979" ph="/* Debug.Log(scene.name); ... */" />
-            <marker date="1540245458957" expanded="true" signature="1040:1378" ph="{...}" />
-            <marker date="1540245458957" expanded="true" signature="1223:1298" ph="{...}" />
+            <marker date="1540249863714" expanded="false" signature="6:61" ph="..." />
+            <marker date="1540249863714" expanded="true" signature="114:5022" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="544:708" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="777:5014" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="874:2906" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="941:2030" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="1410:1746" ph="/* AudioManager.Master.Play(&quot;Wind&quot;); ... */" />
+            <marker date="1540249863714" expanded="true" signature="1769:1956" ph="/* clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject; ... */" />
+            <marker date="1540249863714" expanded="true" signature="2085:2534" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="2202:2297" ph="/* float rayDistance; ... */" />
+            <marker date="1540249863714" expanded="true" signature="2589:2892" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="2940:3631" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="2991:3393" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="3668:3938" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="4005:4903" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="4112:4889" ph="{...}" />
+            <marker date="1540249863714" expanded="true" signature="4322:4872" ph="{...}" />
           </folding>
         </state>
       </provider>

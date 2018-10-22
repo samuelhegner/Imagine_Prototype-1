@@ -48,9 +48,11 @@ public class Forest_Touch_Manager : MonoBehaviour {
                     _thisTrail = Instantiate(TrailPrefab, TrailPos, Quaternion.identity);
 
                     _trailRenderer = _thisTrail.GetComponent<TrailRenderer>();
-                    
-                    
-                    
+
+                   // EZCameraShake.CameraShaker.Instance.ShakeOnce(1f, 1f, 0.2f, 2f);
+
+                    EZCameraShake.CameraShaker.Instance.StartShake(0.5f, 0.5f, 0.2f);
+
                     //AudioManager.Master.Play("Wind");
 
                     //		Ray mRay = Camera.main.ScreenPointToRay(Input.GetTouch(i).position);
@@ -94,6 +96,8 @@ public class Forest_Touch_Manager : MonoBehaviour {
                     _thisTrail.GetComponent<TrailRenderer>().time = 0.5f;
                     Destroy(_thisTrail, 0.5f);
 
+                    EZCameraShake.CameraShaker.Instance.ShakeInstances[0].StartFadeOut(0.4f);
+                    
 
                }
 
@@ -107,7 +111,9 @@ public class Forest_Touch_Manager : MonoBehaviour {
                     _thisTrail = Instantiate(TrailPrefab, TrailPos, Quaternion.identity);
 
                     _trailRenderer = _thisTrail.GetComponent<TrailRenderer>();
-                    
+
+                    EZCameraShake.CameraShaker.Instance.StartShake(0.5f, 0.5f, 0.2f); //ShakeOnce(1f, 1f, 0.2f, 2f);
+
 
                } else {
 
@@ -125,8 +131,10 @@ public class Forest_Touch_Manager : MonoBehaviour {
 
                _thisTrail.GetComponent<TrailRenderer>().time = 0.5f;
                Destroy(_thisTrail, 0.5f);
-               
-               
+
+               EZCameraShake.CameraShaker.Instance.ShakeInstances[0].StartFadeOut(0.4f);//Shake(EZCameraShake.CameraShakePresets.Earthquake);
+
+
           }
 
 
