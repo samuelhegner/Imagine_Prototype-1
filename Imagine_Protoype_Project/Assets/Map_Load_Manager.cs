@@ -24,9 +24,9 @@ public class Map_Load_Manager : MonoBehaviour {
 	}
 
 	void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode) {
-		Debug.Log("Level Loaded");
-		Debug.Log(scene.name);
-		Debug.Log(mode);
+		Debug.Log("Level Loaded: " + scene.name);
+	//	Debug.Log(scene.name);
+		//Debug.Log(mode);
 		
 		
 		CheckMap();
@@ -39,7 +39,7 @@ public class Map_Load_Manager : MonoBehaviour {
 	
 	private void CheckMap() {
 		
-		Debug.Log("Start triggered");
+		//Debug.Log("Start triggered");
 		
 		DontDestroyOnLoad(gameObject);
 		
