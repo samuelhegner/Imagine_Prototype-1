@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4724873723796936}
+  - component: {fileID: 114883689802221812}
   m_Layer: 0
   m_Name: Map (Prefab)
   m_TagString: Untagged
@@ -2851,6 +2852,17 @@ Transform:
   m_Father: {fileID: 4216352119256712}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114883689802221812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006684747400860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2d3024fb91b7d44996441d08a83481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212000775605737636
 SpriteRenderer:
   m_ObjectHideFlags: 1
