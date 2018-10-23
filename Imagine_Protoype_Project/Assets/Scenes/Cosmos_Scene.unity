@@ -339,7 +339,7 @@ MonoBehaviour:
   Prism: {fileID: 1738462406}
   startW: 0.2
   endW: 0.4
-  lightSpeed: 10
+  lightSpeed: 9.5
   drawLine: 0
 --- !u!120 &154412289
 LineRenderer:
