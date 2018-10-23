@@ -95,6 +95,7 @@
           </e>
         </e>
         <e p="Spawn_Objects.cs" t="Include" />
+        <e p="Transitioner_Script.cs" t="Include" />
         <e p="Weight.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />

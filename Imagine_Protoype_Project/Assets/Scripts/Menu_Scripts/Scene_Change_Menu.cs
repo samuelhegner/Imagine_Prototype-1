@@ -4,7 +4,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Scene_Change_Menu : MonoBehaviour {
+
+
+    public GameObject TransitionPrefab;
+    
     public void StartGame() {
-        SceneManager.LoadScene("Map_Scene");
+
+        StartCoroutine(StartGameDelay());
+
+        Instantiate(TransitionPrefab);
+
+
     }
+
+
+    IEnumerator StartGameDelay() {
+
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Map_Scene");
+        
+        
+    }
+
 }
