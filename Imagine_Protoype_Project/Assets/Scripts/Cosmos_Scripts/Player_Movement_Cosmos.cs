@@ -56,6 +56,8 @@ public class Player_Movement_Cosmos : MonoBehaviour {
             if (timer > 25) {
                 SceneManager.LoadScene("Map_Scene");
             }
+
+
         }
 	}
 }
