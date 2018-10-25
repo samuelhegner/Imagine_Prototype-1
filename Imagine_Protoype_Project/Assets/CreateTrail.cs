@@ -41,5 +41,27 @@ public class CreateTrail : MonoBehaviour {
         rend.SetPositions(Points);
         rend.startWidth = 5f;
         rend.endWidth = 5f;
+
+
+        Vector2[] TwoDeePoints = new Vector2[Points.Length];
+        for (int i = 0; i < TwoDeePoints.Length; i++) {
+            Vector3[] TwoDeePointsTemp = new Vector3[Points.Length];
+            TwoDeePointsTemp[i] = transform.InverseTransformPoint(Points[i].x, Points[i].y, 0);
+            TwoDeePoints[i] = new Vector2(TwoDeePointsTemp[i].x, TwoDeePointsTemp[i].y);
+        }
+
+        Vector2[] RightArray = new Vector2[Points.Length]; ;
+        Vector2[] LeftArray = new Vector2[Points.Length];
+
+        for (int i = 0; i < TwoDeePoints.Length; i++) {
+            LeftArray[i] = new Vector2(TwoDeePoints[i].x - rend.startWidth / 2, TwoDeePoints[i].y);
+            RightArray[i] = new Vector2(TwoDeePoints[i].x + rend.startWidth / 2, TwoDeePoints[i].y);
+        }
+
+        EdgeCollider2D edgeRight = gameObject.AddComponent<EdgeCollider2D>();
+        EdgeCollider2D edgeLeft = gameObject.AddComponent<EdgeCollider2D>();
+
+        edgeRight.points = RightArray;
+        edgeLeft.points = LeftArray;
     }
 }

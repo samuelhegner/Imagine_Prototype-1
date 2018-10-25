@@ -1311,7 +1311,7 @@ MonoBehaviour:
   length: 10
   distanceBetweenPoints: 15
   rangeX: 20
-  smoothness: 1
+  smoothness: 20
 --- !u!4 &403330556
 Transform:
   m_ObjectHideFlags: 0
@@ -1319,7 +1319,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 403330554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.5, y: 0, z: 0}
+  m_LocalPosition: {x: -283, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
