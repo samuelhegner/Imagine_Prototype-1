@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.14509805}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.16862746}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -523,7 +523,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3747
   m_TargetDisplay: 0
 --- !u!224 &224218232500759222
 RectTransform:
@@ -540,7 +540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.7000122, y: -4034}
+  m_AnchoredPosition: {x: -0.70001, y: -4414.1}
   m_SizeDelta: {x: 851.6, y: 1035.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224406544560004182
@@ -656,8 +656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.7, y: -1982.6}
-  m_SizeDelta: {x: 851.6, y: 1035.1}
+  m_AnchoredPosition: {x: -0.7, y: -2164.6}
+  m_SizeDelta: {x: 851.6, y: 1399.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224943687248643788
 RectTransform:
@@ -692,6 +692,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.7000122, y: -2999}
+  m_AnchoredPosition: {x: -0.7000122, y: -3379}
   m_SizeDelta: {x: 851.6, y: 1035.1}
   m_Pivot: {x: 0.5, y: 0.5}

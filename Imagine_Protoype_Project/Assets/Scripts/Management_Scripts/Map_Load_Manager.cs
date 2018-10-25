@@ -30,7 +30,7 @@ public class Map_Load_Manager : MonoBehaviour {
 	}
 
 	void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode) {
-		Debug.Log("Level Loaded: " + scene.name);
+//		Debug.Log("Level Loaded: " + scene.name);
 	//	Debug.Log(scene.name);
 		//Debug.Log(mode);
 		

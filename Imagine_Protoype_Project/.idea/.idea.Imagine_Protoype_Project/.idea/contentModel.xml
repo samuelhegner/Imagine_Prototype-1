@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Gary\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Gary\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Imagine_Protoype_Project.-15846969.00" t="ExcludeRecursive" />
-    <e p="E:\Github Projects\Imagine_Prototype\Imagine_Protoype_Project" t="IncludeRecursive">
+    <e p="C:\Users\ThefitzyG\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Imagine_Protoype_Project.880872196.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ThefitzyG\Documents\projects\Imagine_Prototype2\Imagine_Protoype_Project" t="IncludeRecursive">
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -14,11 +13,6 @@
             <e p="Sound.cs" t="Include" />
           </e>
         </e>
-        <e p="Cut_Rope.cs" t="Include" />
-        <e p="DisperseCloud.cs" t="Include" />
-        <e p="DrawRay.cs" t="Include" />
-        <e p="DrawRope.cs" t="Include" />
-        <e p="Line_Info.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">
@@ -64,18 +58,29 @@
             </e>
           </e>
         </e>
-        <e p="PulseSize.cs" t="Include" />
-        <e p="Rope_Creator.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Cosmos_Scripts" t="Include">
             <e p="Activate_Journey.cs" t="Include" />
+            <e p="Cut_Rope.cs" t="Include" />
+            <e p="DisperseCloud.cs" t="Include" />
+            <e p="DrawRay.cs" t="Include" />
+            <e p="DrawRope.cs" t="Include" />
+            <e p="Line_Info.cs" t="Include" />
             <e p="Player_Movement_Cosmos.cs" t="Include" />
+            <e p="PulseSize.cs" t="Include" />
+            <e p="Rope_Creator.cs" t="Include" />
+            <e p="Spawn_Objects.cs" t="Include" />
+            <e p="Weight.cs" t="Include" />
           </e>
           <e p="Forest_Minigame_Scripts" t="Include">
             <e p="Forest_Branch_Wobbler.cs" t="Include" />
             <e p="Forest_Touch_Manager.cs" t="Include" />
             <e p="Wind_Script.cs" t="Include" />
             <e p="Wind_Tree_Controller.cs" t="Include" />
+          </e>
+          <e p="Game_Manager_Scripts" t="Include">
+            <e p="Game_Manager.cs" t="Include" />
+            <e p="Transitioner_Script.cs" t="Include" />
           </e>
           <e p="General_Scripts" t="Include">
             <e p="Follow_Player_Camera.cs" t="Include" />
@@ -95,9 +100,6 @@
             <e p="Scene_Change_Menu.cs" t="Include" />
           </e>
         </e>
-        <e p="Spawn_Objects.cs" t="Include" />
-        <e p="Transitioner_Script.cs" t="Include" />
-        <e p="Weight.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
