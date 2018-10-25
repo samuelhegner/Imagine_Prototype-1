@@ -1308,9 +1308,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ea6f2c0ea7d7b4a88cc28850d92605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  length: 5
+  length: 10
   distanceBetweenPoints: 15
   rangeX: 20
+  smoothness: 1
 --- !u!4 &403330556
 Transform:
   m_ObjectHideFlags: 0

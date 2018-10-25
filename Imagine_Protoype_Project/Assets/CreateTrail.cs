@@ -7,6 +7,7 @@ public class CreateTrail : MonoBehaviour {
     public int length;
     public float distanceBetweenPoints = 10f;
     public float rangeX;
+    public float smoothness;
 
     LineRenderer rend;
 
@@ -34,7 +35,7 @@ public class CreateTrail : MonoBehaviour {
             }
         }
 
-        Points = Game_Manager.MakeSmoothCurve(TempPoints, 5f);
+        Points = Game_Manager.MakeSmoothCurve(TempPoints, smoothness);
 
         rend.positionCount = Points.Length;
         rend.SetPositions(Points);
