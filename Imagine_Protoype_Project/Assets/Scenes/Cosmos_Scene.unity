@@ -973,6 +973,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 199955283841073120, guid: 4422e14414324e241abdfa2e3932b859,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1947000139
+      objectReference: {fileID: 0}
+    - target: {fileID: 199955283841073120, guid: 4422e14414324e241abdfa2e3932b859,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199955283841073120, guid: 4422e14414324e241abdfa2e3932b859,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4422e14414324e241abdfa2e3932b859, type: 2}
   m_IsPrefabAsset: 0
@@ -4363,6 +4378,7 @@ MonoBehaviour:
   risingSpeed: 3
   cameraZoomSpeed: 0.01
   tiltSpeed: 1.5
+  timeToSwitch: 35
 --- !u!61 &1429681283
 BoxCollider2D:
   m_ObjectHideFlags: 0

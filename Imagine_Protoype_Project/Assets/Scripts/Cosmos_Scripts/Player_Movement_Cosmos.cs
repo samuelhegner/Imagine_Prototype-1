@@ -18,6 +18,7 @@ public class Player_Movement_Cosmos : MonoBehaviour {
 
 
 
+    public float timeToSwitch;
     float timer;
 
     Camera cam;
@@ -53,7 +54,7 @@ public class Player_Movement_Cosmos : MonoBehaviour {
 
             timer += Time.deltaTime;
 
-            if (timer > 25) {
+            if (timer > timeToSwitch) {
                 SceneManager.LoadScene("Map_Scene");
             }
 

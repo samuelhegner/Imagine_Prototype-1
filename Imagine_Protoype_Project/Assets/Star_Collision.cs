@@ -27,6 +27,12 @@ public class Star_Collision : MonoBehaviour {
             else {
                 anim.SetTrigger("CollisionLeft");
             }
+            StartCoroutine(KillGameObject());
         }
     }
+
+    IEnumerator KillGameObject() {
+        yield return new WaitForSeconds(8f);
+        Destroy(gameObject);
+    } 
 }
