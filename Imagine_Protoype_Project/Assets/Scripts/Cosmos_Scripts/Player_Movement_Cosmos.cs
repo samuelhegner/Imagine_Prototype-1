@@ -16,7 +16,7 @@ public class Player_Movement_Cosmos : MonoBehaviour {
     public float cameraZoomSpeed;
     public float tiltSpeed;
 
-
+    private bool loadingScene;
 
     public float timeToSwitch;
     float timer;
@@ -52,10 +52,20 @@ public class Player_Movement_Cosmos : MonoBehaviour {
                 cam.orthographicSize += cameraZoomSpeed;
             }
 
-            timer += Time.deltaTime;
+            //changed to fixedDeltaTime because you are using fixed update. 
+            timer += Time.fixedDeltaTime;
 
             if (timer > timeToSwitch) {
-                SceneManager.LoadScene("Map_Scene");
+
+                if (!loadingScene)
+                {
+                    
+                    //SceneManager.LoadScene("Map_Scene");
+                    Game_Manager.Instance.LoadScene("Map_Scene", 0.8f);
+
+                    loadingScene = true;
+                }
+
             }
 
 

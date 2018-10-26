@@ -12,6 +12,8 @@ public class Player_Movement_Map : MonoBehaviour {
     bool twoFingers;
     bool waitingForTouch;
 
+    private bool loadingScene;
+
     Rigidbody2D rb;
 
 
@@ -97,7 +99,11 @@ public class Player_Movement_Map : MonoBehaviour {
                     transform.position = Vector2.MoveTowards(transform.position, SelectedSite.transform.position, movementSpeed * Time.deltaTime);
                 }
                 else {
-                    SelectedSite.GetComponent<Site_Info>().LoadCorrespondingScene();
+                    if (!loadingScene)
+                    {
+                        SelectedSite.GetComponent<Site_Info>().LoadCorrespondingScene();
+                        loadingScene = true;
+                    }
                 }
             }
             

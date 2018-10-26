@@ -80,7 +80,9 @@ public bool playing;
 
      public void ReturnToMap() {
 
-          SceneManager.LoadScene("Map_Scene");
+          Game_Manager.Instance.LoadScene("Map_Scene", 0.8f);
+          
+          //SceneManager.LoadScene("Map_Scene");
           
      }
 
