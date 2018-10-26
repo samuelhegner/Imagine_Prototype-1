@@ -2,18 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CreateTrail : MonoBehaviour {
+public class CreateTrail : MonoBehaviour
+{
 
     public int length;
     public float distanceBetweenPoints = 10f;
     public float rangeX;
     public float smoothness;
 
+    float lineWidth;
+
     LineRenderer rend;
 
     float randomXOffset;
 
     Vector3[] Points;
+
+    public GameObject box;
+
 
     private void Awake()
     {
@@ -37,13 +43,38 @@ public class CreateTrail : MonoBehaviour {
 
         Points = Game_Manager.MakeSmoothCurve(TempPoints, smoothness);
 
+        for (int i = 0; i < Points.Length -1; i++){
+            GameObject boxTemp = Instantiate(box, Points[i], transform.rotation);
+            boxTemp.transform.parent = transform;
+        }
+
+        for (int i = 0; i < transform.childCount -1 ; i++)
+        {
+            if(i < transform.childCount-2){
+                Vector3 toVector = Points[i + 1] - Points[i];
+                float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
+                Quaternion NewRot = Quaternion.AngleAxis(angle, Vector3.forward);
+                transform.GetChild(i).transform.rotation = NewRot;
+            }else{
+                Vector3 toVector = Points[i] - Points[i -1];
+                float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
+                Quaternion NewRot = Quaternion.AngleAxis(angle, Vector3.forward);
+                transform.GetChild(i).transform.rotation = NewRot;
+            }
+
+        }
+
+
         rend.positionCount = Points.Length;
         rend.SetPositions(Points);
         rend.startWidth = 5f;
         rend.endWidth = 5f;
 
+        lineWidth = rend.startWidth;
 
-        Vector2[] TwoDeePoints = new Vector2[Points.Length];
+
+
+        /*Vector2[] TwoDeePoints = new Vector2[Points.Length];
         for (int i = 0; i < TwoDeePoints.Length; i++) {
             Vector3[] TwoDeePointsTemp = new Vector3[Points.Length];
             TwoDeePointsTemp[i] = transform.InverseTransformPoint(Points[i].x, Points[i].y, 0);
@@ -83,6 +114,6 @@ public class CreateTrail : MonoBehaviour {
         EdgeCollider2D edgeLeft = gameObject.AddComponent<EdgeCollider2D>();
 
         edgeRight.points = RightArray;
-        edgeLeft.points = LeftArray;
+        edgeLeft.points = LeftArray;*/
     }
 }
