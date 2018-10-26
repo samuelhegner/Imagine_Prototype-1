@@ -20,7 +20,7 @@ public class Site_Info : MonoBehaviour {
     public void LoadCorrespondingScene() {
        // SceneManager.LoadScene(sceneName);
        
-       Game_Manager.Instance.LoadScene(sceneName, 0.8f);
+       Game_Manager.Instance.LoadScene(sceneName, 1f);
        
     }
 }
