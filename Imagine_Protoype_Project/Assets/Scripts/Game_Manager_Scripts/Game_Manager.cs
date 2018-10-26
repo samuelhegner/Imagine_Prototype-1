@@ -1,26 +1,54 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Game_Manager : MonoBehaviour {
+public class Game_Manager : MonoBehaviour
+{
+    private static string _transitionPath;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public static Game_Manager Instance;
 
-    public static void LoadScene(string SceneName, float timeUntilLoad){
-        //StartCoroutine here on the instance
 
+    public GameObject TransitionTemplate;
+ 
+    void Awake()
+    {
+
+        if (Instance == null)
+        {
+
+            Instance = this;
+
+        }
+        else
+        {
+            
+            DestroyImmediate(gameObject);
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject);
+        
+        
     }
 
-    public static IEnumerator LoadInTime(float time, string name){
+    public  void LoadScene(string SceneName, float timeUntilLoad){
+        //StartCoroutine here on the instance
+        
+      // instance = new Game_Manager();
+
+        StartCoroutine(LoadInTime(timeUntilLoad, SceneName));
+    }
+
+    public IEnumerator LoadInTime(float time, string name)
+    {
+
+       // GameObject temp = (GameObject) Resources.Load(_transitionPath);
+
+        Instantiate(TransitionTemplate);
+        
         yield return new WaitForSeconds(time);
         SceneManager.LoadScene(name);
     }

@@ -10,9 +10,11 @@ public class Scene_Change_Menu : MonoBehaviour {
     
     public void StartGame() {
 
-        StartCoroutine(StartGameDelay());
+       // StartCoroutine(StartGameDelay());
 
-        Instantiate(TransitionPrefab);
+      //  Instantiate(TransitionPrefab);
+        
+        Game_Manager.Instance.LoadScene("Map_Scene", 1f);
 
 
     }
