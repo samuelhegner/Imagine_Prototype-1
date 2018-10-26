@@ -53,8 +53,29 @@ public class CreateTrail : MonoBehaviour {
         Vector2[] RightArray = new Vector2[Points.Length]; ;
         Vector2[] LeftArray = new Vector2[Points.Length];
 
+        float angle;
+        float xOff;
+        float yOff;
+
         for (int i = 0; i < TwoDeePoints.Length; i++) {
-            LeftArray[i] = new Vector2(TwoDeePoints[i].x - rend.startWidth / 2, TwoDeePoints[i].y);
+
+            xOff = 0;
+            yOff = 0;
+            
+            if (i < TwoDeePoints.Length - 1) {
+                angle = Vector2.SignedAngle(Vector3.up, (TwoDeePoints[i + 1] - TwoDeePoints[i]));
+
+                float percentAngle = 90 / angle;
+                yOff = (rend.startWidth / 2) / percentAngle;
+                xOff = (rend.startWidth / 2) - yOff;
+
+                print("yOff= " + yOff);
+                print("xOff= " + xOff);
+            }
+
+            
+
+            LeftArray[i] = new Vector2(TwoDeePoints[i].x, TwoDeePoints[i].y);
             RightArray[i] = new Vector2(TwoDeePoints[i].x + rend.startWidth / 2, TwoDeePoints[i].y);
         }
 
