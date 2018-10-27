@@ -19,7 +19,7 @@ public class CreateTrail : MonoBehaviour
     Vector3[] Points;
 
     public GameObject box;
-
+    Quaternion lastRot;
 
     private void Awake()
     {
@@ -50,16 +50,16 @@ public class CreateTrail : MonoBehaviour
 
         for (int i = 0; i < transform.childCount -1 ; i++)
         {
+            
+            
             if(i < transform.childCount-2){
                 Vector3 toVector = Points[i + 1] - Points[i];
                 float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
                 Quaternion NewRot = Quaternion.AngleAxis(angle, Vector3.forward);
+                lastRot = NewRot;
                 transform.GetChild(i).transform.rotation = NewRot;
             }else{
-                Vector3 toVector = Points[i] - Points[i -1];
-                float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
-                Quaternion NewRot = Quaternion.AngleAxis(angle, Vector3.forward);
-                transform.GetChild(i).transform.rotation = NewRot;
+                transform.GetChild(i).transform.rotation = lastRot;
             }
 
         }
