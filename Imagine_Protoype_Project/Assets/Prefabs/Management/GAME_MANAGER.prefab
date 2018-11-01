@@ -81,19 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - name: 
-    audioMixerGroup: {fileID: 0}
-    clips: []
-    volume: 1
-    pitch: 1
-    spatialBlend: 0
-    loop: 0
-    mute: 0
-    playOnAwake: 0
-    source: {fileID: 0}
-    FadingIn: 0
-    FadingOut: 0
+  sounds: []
   master: 1
   DontDestroyOnLoad: 0
 --- !u!114 &114985449785899170

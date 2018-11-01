@@ -521,11 +521,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Forest_Journey
+  - name: Journey_Space_0
     audioMixerGroup: {fileID: 243148456519676510, guid: f53abdbdf703fff48a03ac380608cf1c,
       type: 2}
     clips:
-    - {fileID: 8300000, guid: 1839f544a712f2442a947382354e7bc6, type: 3}
+    - {fileID: 8300000, guid: faeb1e96c6575c140bbf3fd5ea5fc5ac, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed6f5a2d5430e94ea761d6759e7938d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentJourneyName: Forest_Journey
+  CurrentJourneyName: Journey_Space_0
   playing: 0
 --- !u!114 &114833080284241724
 MonoBehaviour:
