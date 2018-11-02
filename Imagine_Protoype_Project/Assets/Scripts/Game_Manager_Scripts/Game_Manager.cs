@@ -34,23 +34,34 @@ public class Game_Manager : MonoBehaviour
         
     }
 
-    public  void LoadScene(string SceneName, float timeUntilLoad){
+    public  void LoadScene(string SceneName){
         //StartCoroutine here on the instance
         
       // instance = new Game_Manager();
 
-        StartCoroutine(LoadInTime(timeUntilLoad, SceneName));
+        StartCoroutine(LoadInTime(SceneName));
     }
 
-    public IEnumerator LoadInTime(float time, string name)
+    public IEnumerator LoadInTime(string name)
     {
 
        // GameObject temp = (GameObject) Resources.Load(_transitionPath);
 
         Instantiate(TransitionTemplate);
+
+         yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(time);
+        AsyncOperation loading = SceneManager.LoadSceneAsync(name);
+
+       
         
-        yield return new WaitForSeconds(time);
-        SceneManager.LoadScene(name);
+        while (!loading.isDone) {
+
+            yield return null;
+
+        }
+
+
     }
 
     //arrayToCurve is original Vector3 array, smoothness is the number of interpolations.

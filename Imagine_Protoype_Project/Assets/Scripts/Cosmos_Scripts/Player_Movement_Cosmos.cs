@@ -61,7 +61,7 @@ public class Player_Movement_Cosmos : MonoBehaviour {
                 {
                     
                     //SceneManager.LoadScene("Map_Scene");
-                    Game_Manager.Instance.LoadScene("Map_Scene", 1f);
+                    Game_Manager.Instance.LoadScene("Map_Scene");
 
                     loadingScene = true;
                 }

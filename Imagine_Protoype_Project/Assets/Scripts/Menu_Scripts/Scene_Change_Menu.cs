@@ -14,7 +14,7 @@ public class Scene_Change_Menu : MonoBehaviour {
 
       //  Instantiate(TransitionPrefab);
         
-        Game_Manager.Instance.LoadScene("Map_Scene", 1f);
+        Game_Manager.Instance.LoadScene("Map_Scene");
 
 
     }
