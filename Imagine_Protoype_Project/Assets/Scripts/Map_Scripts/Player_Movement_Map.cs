@@ -54,6 +54,7 @@ public class Player_Movement_Map : MonoBehaviour {
                         print("test");
                         location = SetPointToMove(touch.position);
                         waitingForTouch = true;
+                        DropFlag();
                     }
                 }
 
@@ -87,6 +88,7 @@ public class Player_Movement_Map : MonoBehaviour {
                     if (Input.GetMouseButtonUp(0))
                     {
                         location = SetPointToMove(Input.mousePosition);
+                        DropFlag();
                     }
                 }
                 
@@ -140,5 +142,13 @@ public class Player_Movement_Map : MonoBehaviour {
 
     void MoveToPoint(Vector2 location) {
         transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
+    }
+
+    void DropFlag() {
+
+        //TODO: Instantiate flag prefab, flag prefab animates, flag prefab checks ground, flag prefab instantiates ground effect.
+        
+        Debug.Log("Dropping flag");
+        
     }
 }
