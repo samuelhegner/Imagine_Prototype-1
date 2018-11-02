@@ -59,6 +59,9 @@ TagManager:
   - name: Sites
     uniqueID: 3542824759
     locked: 0
+  - name: MapFeatures
+    uniqueID: 2980830755
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
