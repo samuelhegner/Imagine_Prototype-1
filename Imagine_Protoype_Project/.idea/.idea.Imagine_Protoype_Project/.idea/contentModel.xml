@@ -15,6 +15,7 @@
           </e>
         </e>
         <e p="CreateTrail.cs" t="Include" />
+        <e p="initialLoader.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">

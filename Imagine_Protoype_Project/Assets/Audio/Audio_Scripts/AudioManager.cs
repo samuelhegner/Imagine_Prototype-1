@@ -83,6 +83,12 @@ public class AudioManager : MonoBehaviour {
 
 	}
 
+	public void PlayImmediately(string name) {
+
+		Play(name);
+		
+	}
+
 
 	IEnumerator FadeIn(Sound s, float fadeTime, float defaultVolume) {
 

@@ -27,6 +27,8 @@ public class Player_Movement_Map : MonoBehaviour {
 
     Vector2 location;
 
+    public GameObject Flag;
+
     [SerializeField]
     float movementSpeed;
 
@@ -147,6 +149,9 @@ public class Player_Movement_Map : MonoBehaviour {
     void DropFlag() {
 
         //TODO: Instantiate flag prefab, flag prefab animates, flag prefab checks ground, flag prefab instantiates ground effect.
+
+        Flag.transform.position = location;
+        Flag.GetComponent<Animator>().SetTrigger("Drop");
         
         Debug.Log("Dropping flag");
         
