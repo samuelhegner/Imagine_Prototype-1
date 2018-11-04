@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724873723796936}
   - component: {fileID: 114883689802221812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Map (Prefab)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4965853339358880}
   - component: {fileID: 212530454890787602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028981436605484}
   - component: {fileID: 212051995400334838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4686216497187946}
   - component: {fileID: 212597977673796588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AleStones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4929394959081820}
   - component: {fileID: 212366456002748106}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4092879762529416}
   - component: {fileID: 212569344905882652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4816963851926480}
   - component: {fileID: 212109383507712802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4452428478650800}
   - component: {fileID: 212055609200910536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4761247979763676}
   - component: {fileID: 212933958330136976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Newgrange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4188314421044590}
   - component: {fileID: 212968514395479044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NE BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4078161533708380}
   - component: {fileID: 212673930943679222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AveburyHenge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4563370236533942}
   - component: {fileID: 212566769170140092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SW TM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4313644385518864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Site Icons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4149115249932238}
   - component: {fileID: 212362442931012046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4114456182970802}
   - component: {fileID: 212449986625026140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NW TM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4600577446066270}
   - component: {fileID: 212242609360643062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WassuStoneCircles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4056106078772574}
   - component: {fileID: 212715745410072174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4116969923583810}
   - component: {fileID: 212097020196822898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4063643814762804}
   - component: {fileID: 212203150311212372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4514050482737750}
   - component: {fileID: 212622566434732116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -339,7 +339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4853521177377378}
   - component: {fileID: 212551874182973736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4924866284831394}
   - component: {fileID: 212692991338383880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,7 +371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4569721352560828}
   - component: {fileID: 212115166216059658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -387,7 +387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4172266577535756}
   - component: {fileID: 212846167968129482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NE BM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4885540667823090}
   - component: {fileID: 212769859883811790}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DrombegStoneCircle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4410385288763868}
   - component: {fileID: 212000775605737636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: St.AugustinStatues
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4910647261478172}
   - component: {fileID: 212569192412105266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NE TM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4251381296880060}
   - component: {fileID: 212660584957029914}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -467,7 +467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4085743275952644}
   - component: {fileID: 212502171170920752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NW TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,8 +483,23 @@ GameObject:
   m_Component:
   - component: {fileID: 4618919746206654}
   - component: {fileID: 212824466653359468}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AlmendresStones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1402579574828894
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4157890391778878}
+  m_Layer: 8
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4596215929000894}
   - component: {fileID: 212248456061220374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ZoratsKarer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4912588739591582}
   - component: {fileID: 212234989489672974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4580472939592592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4504231210138322}
   - component: {fileID: 212286319570698310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -562,7 +577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4870297455023110}
   - component: {fileID: 212844384734018448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SW TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4525404848078780}
   - component: {fileID: 212548394023440282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SW TL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4759679978013232}
   - component: {fileID: 212719680660308182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PentreIfan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,7 +625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4313811295667954}
   - component: {fileID: 212587949091271732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CallanishStones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4928786194592774}
   - component: {fileID: 212776777405486886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stonehenge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4461487898778030}
   - component: {fileID: 212370108115318294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4858296941866734}
   - component: {fileID: 212197341817394446}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NW BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4002921835311360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4529342579778310}
   - component: {fileID: 212959547713305700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,7 +720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4466780566578792}
   - component: {fileID: 212173701599716490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -721,7 +736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4326076625760356}
   - component: {fileID: 212810851090841402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SE BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4303655887438446}
   - component: {fileID: 212388536759012050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,7 +768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4067282209333854}
   - component: {fileID: 212462691864104264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,7 +784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4206877194109710}
   - component: {fileID: 212311067488222388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4368011110575696}
   - component: {fileID: 212614790891136020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -801,7 +816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4168866187784344}
   - component: {fileID: 212761539678024866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SE TL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,7 +832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4501370860888312}
   - component: {fileID: 212997616139145592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CarnacStones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -833,7 +848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4164116645937660}
   - component: {fileID: 212008910473270644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SE TM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4129714741249560}
   - component: {fileID: 212457078296221618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4603460040109396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4125700540674868}
   - component: {fileID: 212112199621352520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -896,7 +911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4092427563652476}
   - component: {fileID: 212418200983841974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4022873762047320}
   - component: {fileID: 212854242586811924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SW BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4922241013468830}
   - component: {fileID: 212382517477202964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4329427764563504}
   - component: {fileID: 212848509662468060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,7 +975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4855970411552288}
   - component: {fileID: 212764804998561848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,7 +991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4400743466403618}
   - component: {fileID: 212295173347798092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +1007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4394075592092574}
   - component: {fileID: 212336649149189608}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,7 +1023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4670202260105222}
   - component: {fileID: 212345079376411234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NE BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4110608648329884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1039,7 +1054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4596818240513580}
   - component: {fileID: 212541422617420220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SE BM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1055,7 +1070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4903377734132278}
   - component: {fileID: 212327016894640230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1071,7 +1086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4798021684952388}
   - component: {fileID: 212236654281481620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,7 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4780656966622138}
   - component: {fileID: 212969179292499882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NE TL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4420711345791208}
   - component: {fileID: 212571914499702916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4772355911746812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Landmasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1134,7 +1149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4075595554994060}
   - component: {fileID: 212266324227067732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1149,7 +1164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4216352119256712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ocean Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4128439599777296}
   - component: {fileID: 212824373753030846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Map Centre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1181,7 +1196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4230800436413564}
   - component: {fileID: 212436273420217808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NW BM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1197,7 +1212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4554339487632646}
   - component: {fileID: 212846218077964394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1213,7 +1228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4710826458510586}
   - component: {fileID: 212660862067501242}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NW BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4617772907265708}
   - component: {fileID: 212042849045773792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,7 +1260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4830171339331612}
   - component: {fileID: 212874654012807110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NE TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1261,7 +1276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4079958215186058}
   - component: {fileID: 212013188233412312}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TiyaMegaliths
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1277,7 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4743614775165126}
   - component: {fileID: 212332663139005172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1293,7 +1308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4670858637527512}
   - component: {fileID: 212391245801976450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1309,7 +1324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4802023568880348}
   - component: {fileID: 212347026284220492}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 NW TL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1325,7 +1340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4746875807465344}
   - component: {fileID: 212438292214265378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SE BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1341,7 +1356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4882392685416548}
   - component: {fileID: 212347245904968060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1357,7 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4184739566724426}
   - component: {fileID: 212421287988453318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SE TR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1373,7 +1388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4614666943553428}
   - component: {fileID: 212144324583996976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1388,7 +1403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4899191015368048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1404,7 +1419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4670414959780784}
   - component: {fileID: 212020878012224894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1420,7 +1435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4356594891043766}
   - component: {fileID: 212253880250277760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'worldmap5 SW BR '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1436,7 +1451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4860115424304202}
   - component: {fileID: 212716732501320540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1452,7 +1467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4757386709787312}
   - component: {fileID: 212673534092808666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4213597134441262}
   - component: {fileID: 212357359249456332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: worldmap5 SW BM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1484,7 +1499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4489906069995732}
   - component: {fileID: 212186760211997526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,13 +1515,30 @@ GameObject:
   m_Component:
   - component: {fileID: 4310709602587100}
   - component: {fileID: 212106184428014160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1994855025009176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4489838436792854}
+  - component: {fileID: 50003425989646260}
+  - component: {fileID: 66916126628335912}
+  m_Layer: 8
+  m_Name: MapColliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1998496031926236
 GameObject:
   m_ObjectHideFlags: 1
@@ -1516,7 +1548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4564942427963890}
   - component: {fileID: 212295827775551306}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: OceanBackground(4096x4096) (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1778,6 +1810,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4216352119256712}
   m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4157890391778878
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402579574828894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4489838436792854}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4164116645937660
 Transform:
@@ -2165,6 +2210,20 @@ Transform:
   m_Father: {fileID: 4216352119256712}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4489838436792854
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994855025009176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4157890391778878}
+  m_Father: {fileID: 4724873723796936}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4489906069995732
 Transform:
   m_ObjectHideFlags: 1
@@ -2488,6 +2547,7 @@ Transform:
   m_Children:
   - {fileID: 4002921835311360}
   - {fileID: 4313644385518864}
+  - {fileID: 4489838436792854}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2852,6 +2912,46 @@ Transform:
   m_Father: {fileID: 4216352119256712}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50003425989646260
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994855025009176}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!66 &66916126628335912
+CompositeCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1994855025009176}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
 --- !u!114 &114883689802221812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2942,7 +3042,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8128525b1b897414cb3945ce0ae17f3b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3034,7 +3134,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3080,7 +3180,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3126,7 +3226,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3172,7 +3272,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3218,7 +3318,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3264,7 +3364,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3310,7 +3410,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3356,7 +3456,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3402,7 +3502,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3448,7 +3548,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3494,7 +3594,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3540,7 +3640,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3586,7 +3686,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: a6355c5eadd2bd24f9e0f240595e6366, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3632,7 +3732,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3678,7 +3778,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3724,7 +3824,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3862,7 +3962,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: a2bfaeb585aba6640b5adc59ffa09ca7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3908,7 +4008,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3954,7 +4054,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4000,7 +4100,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4046,7 +4146,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4092,7 +4192,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4138,7 +4238,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4184,7 +4284,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4230,7 +4330,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4276,7 +4376,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 69655eec038ad0e4eb5ea1081f380009, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4322,7 +4422,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: c31da03aec536dc42b904755fa802e6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4368,7 +4468,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4414,7 +4514,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 073c1337785675c44889c8c0472974ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4460,7 +4560,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4506,7 +4606,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4552,7 +4652,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4598,7 +4698,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4644,7 +4744,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4690,7 +4790,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4736,7 +4836,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4782,7 +4882,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: f38716ee6bb5fd54c86b42f154533033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4828,7 +4928,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 363fe60a158d1f04bb0bbb573967cc40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4874,7 +4974,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: e5a2ac1c004ca4841b878cae0b30e16a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4920,7 +5020,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 64bff08aae3351f43996423cdebf08c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4966,7 +5066,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5012,7 +5112,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5058,7 +5158,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: e81c4c5a21ba296489fe29d7451c1bb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5104,7 +5204,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5150,7 +5250,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 95d16e460e59c1049af2569701f36978, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5196,7 +5296,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 7bab1d0d521d0dd4396a5f1001a0825e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5242,7 +5342,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5288,7 +5388,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: cc3ad7cd00700ce44b89545230c7583d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5334,7 +5434,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 41c171d3455bbc1498701a46df5e6308, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5380,7 +5480,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5426,7 +5526,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5564,7 +5664,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5610,7 +5710,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5656,7 +5756,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5702,7 +5802,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: afa54c71088fb6943892e08bbc4b1755, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5748,7 +5848,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5840,7 +5940,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5886,7 +5986,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5932,7 +6032,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6024,7 +6124,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: b056366c5d09a5b429091ef40712d120, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6070,7 +6170,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6208,7 +6308,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 25316544b5361eb4389cf33ec8402e0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6346,7 +6446,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: f1c93adc300a435498a6d5fe43202264, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6392,7 +6492,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 332c0a72ce74ed647a828938983aef79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6438,7 +6538,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6484,7 +6584,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6530,7 +6630,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: cab859cf5e51f65409a9bb08a24ce5be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6576,7 +6676,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: a644be2f34a27fe468f30ce6079ba4bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6668,7 +6768,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1508086179
-  m_SortingLayer: 2
+  m_SortingLayer: -4
   m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: a0247a908078b554bae0c96917762159, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6714,7 +6814,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4a016b67d7ea2e1408e45d3dba4ab35b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6760,7 +6860,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -261904959
-  m_SortingLayer: 3
+  m_SortingLayer: -3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9c9f3a399b8ab6c41b15a30c4424c4b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

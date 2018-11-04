@@ -15,6 +15,7 @@
           </e>
         </e>
         <e p="CreateTrail.cs" t="Include" />
+        <e p="Flag_Ground_Checker.cs" t="Include" />
         <e p="initialLoader.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
@@ -104,6 +105,7 @@
           </e>
         </e>
         <e p="Star_Collision.cs" t="Include" />
+        <e p="Trail_Effect.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

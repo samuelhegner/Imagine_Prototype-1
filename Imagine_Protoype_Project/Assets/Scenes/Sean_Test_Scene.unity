@@ -243,11 +243,11 @@ MonoBehaviour:
     lineCount: 3
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -385,6 +385,10 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1962831754152182, guid: 0ef57ffeb437abc409689f487511203e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ef57ffeb437abc409689f487511203e, type: 2}
   m_IsPrefabAsset: 0
@@ -405,7 +409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &800591014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,15 +645,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.28219706
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.9409839
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -30.970594
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4686255307087172, guid: 7b15cc05dc74a1a40b9178e2a08958a9, type: 2}
       propertyPath: m_LocalRotation.x
