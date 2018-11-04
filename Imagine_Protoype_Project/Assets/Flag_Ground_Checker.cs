@@ -14,6 +14,20 @@ public class Flag_Ground_Checker : MonoBehaviour {
      [Range(0f, 360f)]
      public float MaxHue;
 
+
+     public GameObject GroundObject;
+     public GameObject WaterObject;
+     
+
+    public enum Terrain {
+
+          Ground,
+          Water
+          
+     }
+
+     public Terrain State;
+
      public void CompareColours() {
 
           Texture2D texture = new Texture2D(1,1, TextureFormat.RGB24, false);
@@ -41,14 +55,14 @@ public class Flag_Ground_Checker : MonoBehaviour {
           if (h > MinHue && h < MaxHue) {
 
                Debug.Log("Sploosh");
-               
-               
-               
+
+               State = Terrain.Water;
+
           } else {
 
                Debug.Log("Thud");
-               
-               
+
+               State = Terrain.Ground;
           }
 
 
@@ -58,6 +72,43 @@ public class Flag_Ground_Checker : MonoBehaviour {
 
 
      }
+
+
+
+     public void ChangeFooting() {
+
+          
+          GroundObject.SetActive(false);
+          WaterObject.SetActive(false);
+
+
+          switch (State) {
+
+               
+               case (Terrain.Ground) :
+
+
+                    GroundObject.SetActive(true);
+                    
+                    
+                    break;
+               
+               case (Terrain.Water):
+                    
+                    
+                    WaterObject.SetActive(true);
+
+                    break;
+               
+               
+               
+          }
+
+
+
+     }
+
+
 
 
 }

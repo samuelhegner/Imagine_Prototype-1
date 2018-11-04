@@ -164,14 +164,17 @@
       <file leaf-file-name="Flag_Ground_Checker.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="581">
+              <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
               <folding>
-                <marker date="1541365910994" expanded="false" signature="6:78" ph="..." />
-                <marker date="1541365910994" expanded="true" signature="129:1072" ph="{...}" />
-                <marker date="1541365910994" expanded="true" signature="320:1068" ph="{...}" />
-                <marker date="1541365910994" expanded="true" signature="786:885" ph="{...}" />
-                <marker date="1541365910994" expanded="true" signature="984:1058" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
+                <marker date="1541367127238" expanded="false" signature="6:78" ph="..." />
+                <marker date="1541367127238" expanded="true" signature="129:1842" ph="{...}" />
+                <marker date="1541367127238" expanded="true" signature="391:445" ph="{...}" />
+                <marker date="1541367127238" expanded="true" signature="509:1257" ph="{...}" />
+                <marker date="1541367127238" expanded="true" signature="975:1066" ph="{...}" />
+                <marker date="1541367127238" expanded="true" signature="1173:1247" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
+                <marker date="1541367127238" expanded="true" signature="1294:1836" ph="{...}" />
+                <marker date="1541367127238" expanded="true" signature="1416:1826" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -428,12 +431,12 @@
       <workItem from="1540738613761" duration="759000" />
       <workItem from="1541174410488" duration="3292000" />
       <workItem from="1541279609862" duration="905000" />
-      <workItem from="1541364297717" duration="1612000" />
+      <workItem from="1541364297717" duration="2524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41343000" />
+    <option name="totallyTimeSpent" value="42255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1180,14 +1183,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="581">
+          <caret line="95" column="36" lean-forward="true" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
           <folding>
-            <marker date="1541365910994" expanded="false" signature="6:78" ph="..." />
-            <marker date="1541365910994" expanded="true" signature="129:1072" ph="{...}" />
-            <marker date="1541365910994" expanded="true" signature="320:1068" ph="{...}" />
-            <marker date="1541365910994" expanded="true" signature="786:885" ph="{...}" />
-            <marker date="1541365910994" expanded="true" signature="984:1058" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
+            <marker date="1541367127238" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541367127238" expanded="true" signature="129:1842" ph="{...}" />
+            <marker date="1541367127238" expanded="true" signature="391:445" ph="{...}" />
+            <marker date="1541367127238" expanded="true" signature="509:1257" ph="{...}" />
+            <marker date="1541367127238" expanded="true" signature="975:1066" ph="{...}" />
+            <marker date="1541367127238" expanded="true" signature="1173:1247" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
+            <marker date="1541367127238" expanded="true" signature="1294:1836" ph="{...}" />
+            <marker date="1541367127238" expanded="true" signature="1416:1826" ph="{...}" />
           </folding>
         </state>
       </provider>
