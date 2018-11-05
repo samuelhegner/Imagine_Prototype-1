@@ -10,7 +10,7 @@ public class Pinch_Zoom_Camera : MonoBehaviour {
 
     Camera cam;
 
-    void Awake()
+    void Start()
     {
         cam = Camera.main;
     }
