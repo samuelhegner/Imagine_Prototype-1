@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 199011894240129538}
   - component: {fileID: 114922858048295474}
   - component: {fileID: 60629672700643294}
+  - component: {fileID: 114420300809797170}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: Untagged
@@ -103,6 +104,21 @@ PolygonCollider2D:
       - {x: 0.14, y: -0.46857142}
       - {x: 0.24285714, y: -0.45142856}
       - {x: 0.34, y: -0.4}
+--- !u!114 &114420300809797170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1751187780992628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03211b0d50c967429cd2a91f1f29fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 38ac05152ac0a3747a75ce765bae9d80, type: 3}
+  - {fileID: 21300000, guid: 19e9e455ed8051841a97e9eb8b606d47, type: 3}
+  - {fileID: 21300000, guid: d9b768a98650165409217356fecc3277, type: 3}
 --- !u!114 &114922858048295474
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -9,8 +9,12 @@ public class Trail_Effect : MonoBehaviour {
 	float emission;
 	public float emissionCap = 25f;
 
+	public float emissionRate = 2f;
+
 	ParticleSystem system;
 	ParticleSystem.EmissionModule em;
+
+
 	void Start(){
 		system = GetComponent<ParticleSystem>();
 		em = system.emission;
@@ -20,11 +24,11 @@ public class Trail_Effect : MonoBehaviour {
 	void Update(){
 		if(trail == true){
 			if(emission <= emissionCap){
-				emission += Time.deltaTime;
+				emission += Time.deltaTime * emissionRate;
 			}
 		}else if(trail == false){
 			if(emission > 0){
-				emission -= Time.deltaTime * 2f;
+				emission -= Time.deltaTime * emissionRate * 2f;
 			}
 		}
 
