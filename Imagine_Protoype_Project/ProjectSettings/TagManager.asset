@@ -11,6 +11,7 @@ TagManager:
   - Test
   - Ray
   - Trail
+  - Map_Interactable
   layers:
   - Default
   - TransparentFX
