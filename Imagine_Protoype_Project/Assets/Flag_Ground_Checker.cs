@@ -77,6 +77,9 @@ public class Flag_Ground_Checker : MonoBehaviour {
 
      public void ChangeFooting() {
 
+
+          EZCameraShake.CameraShaker.Instance.ShakeOnce(20f, 20f, 0, 0.5f);
+
           
           GroundObject.SetActive(false);
           WaterObject.SetActive(false);

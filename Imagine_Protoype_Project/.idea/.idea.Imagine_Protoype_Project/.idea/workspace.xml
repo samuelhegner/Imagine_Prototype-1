@@ -146,20 +146,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flag_Ground_Checker.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Flag_Ground_Checker.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+            <state relative-caret-position="131">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
-                <marker date="1541367127238" expanded="false" signature="6:78" ph="..." />
-                <marker date="1541367127238" expanded="true" signature="129:1842" ph="{...}" />
-                <marker date="1541367127238" expanded="true" signature="391:445" ph="{...}" />
-                <marker date="1541367127238" expanded="true" signature="509:1257" ph="{...}" />
-                <marker date="1541367127238" expanded="true" signature="975:1066" ph="{...}" />
-                <marker date="1541367127238" expanded="true" signature="1173:1247" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
-                <marker date="1541367127238" expanded="true" signature="1294:1836" ph="{...}" />
-                <marker date="1541367127238" expanded="true" signature="1416:1826" ph="{...}" />
+                <marker date="1541460333114" expanded="false" signature="6:78" ph="..." />
+                <marker date="1541460333114" expanded="true" signature="129:1920" ph="{...}" />
+                <marker date="1541460333114" expanded="true" signature="391:445" ph="{...}" />
+                <marker date="1541460333114" expanded="true" signature="509:1257" ph="{...}" />
+                <marker date="1541460333114" expanded="true" signature="975:1066" ph="{...}" />
+                <marker date="1541460333114" expanded="true" signature="1173:1247" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
+                <marker date="1541460333114" expanded="true" signature="1294:1914" ph="{...}" />
+                <marker date="1541460333114" expanded="true" signature="1494:1904" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,7 +168,7 @@
       <file leaf-file-name="Cut_Rope.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="391">
               <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
               <folding>
                 <marker date="1540467346407" expanded="false" signature="6:78" ph="..." />
@@ -186,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map_Raycast_Animation_Trigger.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Map_Raycast_Animation_Trigger.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Map_Raycast_Animation_Trigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+            <state>
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
               <folding>
                 <marker date="1541452913040" expanded="false" signature="6:78" ph="..." />
                 <marker date="1541452913040" expanded="true" signature="139:704" ph="{...}" />
@@ -253,7 +253,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+              <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
               <folding>
                 <marker date="1541279661482" expanded="false" signature="6:92" ph="..." />
                 <marker date="1541279661482" expanded="true" signature="137:3516" ph="{...}" />
@@ -339,8 +339,8 @@
         <option value="$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" />
         <option value="$PROJECT_DIR$/Assets/initialLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs" />
         <option value="$PROJECT_DIR$/Assets/Map_Raycast_Animation_Trigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs" />
       </list>
     </option>
   </component>
@@ -353,9 +353,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="140" />
-    <option name="y" value="-18" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="139" />
+    <option name="y" value="-19" />
     <option name="width" value="1485" />
     <option name="height" value="825" />
   </component>
@@ -366,7 +366,6 @@
     </navigator>
     <panes>
       <pane id="SolutionExplorer" />
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -390,6 +389,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -453,11 +453,12 @@
       <workItem from="1541279609862" duration="905000" />
       <workItem from="1541364297717" duration="3123000" />
       <workItem from="1541451249355" duration="2255000" />
+      <workItem from="1541460202478" duration="131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45109000" />
+    <option name="totallyTimeSpent" value="45240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +470,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="7" />
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -587,12 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <marker date="1541175018093" expanded="false" signature="6:113" ph="..." />
-            <marker date="1541175018093" expanded="true" signature="155:450" ph="{...}" />
-            <marker date="1541175018093" expanded="true" signature="185:225" ph="{...}" />
-            <marker date="1541175018093" expanded="true" signature="329:448" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,12 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <marker date="1541175018093" expanded="false" signature="6:113" ph="..." />
-            <marker date="1541175018093" expanded="true" signature="155:450" ph="{...}" />
-            <marker date="1541175018093" expanded="true" signature="185:225" ph="{...}" />
-            <marker date="1541175018093" expanded="true" signature="329:448" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,12 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <marker date="1541175018093" expanded="false" signature="6:113" ph="..." />
-            <marker date="1541175018093" expanded="true" signature="155:450" ph="{...}" />
-            <marker date="1541175018093" expanded="true" signature="185:225" ph="{...}" />
-            <marker date="1541175018093" expanded="true" signature="329:448" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1027,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
           <folding>
             <marker date="1541279661482" expanded="false" signature="6:92" ph="..." />
             <marker date="1541279661482" expanded="true" signature="137:3516" ph="{...}" />
@@ -1127,26 +1110,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-          <folding>
-            <marker date="1541367127238" expanded="false" signature="6:78" ph="..." />
-            <marker date="1541367127238" expanded="true" signature="129:1842" ph="{...}" />
-            <marker date="1541367127238" expanded="true" signature="391:445" ph="{...}" />
-            <marker date="1541367127238" expanded="true" signature="509:1257" ph="{...}" />
-            <marker date="1541367127238" expanded="true" signature="975:1066" ph="{...}" />
-            <marker date="1541367127238" expanded="true" signature="1173:1247" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
-            <marker date="1541367127238" expanded="true" signature="1294:1836" ph="{...}" />
-            <marker date="1541367127238" expanded="true" signature="1416:1826" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="391">
           <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
           <folding>
             <marker date="1540467346407" expanded="false" signature="6:78" ph="..." />
@@ -1165,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Map_Raycast_Animation_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+        <state>
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
           <folding>
             <marker date="1541452913040" expanded="false" signature="6:78" ph="..." />
             <marker date="1541452913040" expanded="true" signature="139:704" ph="{...}" />
@@ -1177,6 +1143,23 @@
             <marker date="1541452913040" expanded="true" signature="389:699" ph="{...}" />
             <marker date="1541452913040" expanded="true" signature="528:693" ph="{...}" />
             <marker date="1541452913040" expanded="true" signature="593:687" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Flag_Ground_Checker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <marker date="1541460333114" expanded="false" signature="6:78" ph="..." />
+            <marker date="1541460333114" expanded="true" signature="129:1920" ph="{...}" />
+            <marker date="1541460333114" expanded="true" signature="391:445" ph="{...}" />
+            <marker date="1541460333114" expanded="true" signature="509:1257" ph="{...}" />
+            <marker date="1541460333114" expanded="true" signature="975:1066" ph="{...}" />
+            <marker date="1541460333114" expanded="true" signature="1173:1247" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
+            <marker date="1541460333114" expanded="true" signature="1294:1914" ph="{...}" />
+            <marker date="1541460333114" expanded="true" signature="1494:1904" ph="{...}" />
           </folding>
         </state>
       </provider>
