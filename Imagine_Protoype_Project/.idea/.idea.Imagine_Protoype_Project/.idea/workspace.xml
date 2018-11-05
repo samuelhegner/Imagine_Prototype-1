@@ -190,7 +190,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Map_Raycast_Animation_Trigger.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="36" column="75" lean-forward="true" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+              <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
               <folding>
                 <marker date="1541452913040" expanded="false" signature="6:78" ph="..." />
                 <marker date="1541452913040" expanded="true" signature="139:704" ph="{...}" />
@@ -452,12 +452,12 @@
       <workItem from="1541174410488" duration="3292000" />
       <workItem from="1541279609862" duration="905000" />
       <workItem from="1541364297717" duration="3123000" />
-      <workItem from="1541451249355" duration="1656000" />
+      <workItem from="1541451249355" duration="2255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44510000" />
+    <option name="totallyTimeSpent" value="45109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +469,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1166,7 +1166,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Map_Raycast_Animation_Trigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="36" column="75" lean-forward="true" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
+          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
           <folding>
             <marker date="1541452913040" expanded="false" signature="6:78" ph="..." />
             <marker date="1541452913040" expanded="true" signature="139:704" ph="{...}" />
