@@ -165,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PCSlider_Map.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PCSlider_Map.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="289">
+              <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
               <folding>
                 <marker date="1539975908621" expanded="false" signature="6:100" ph="..." />
                 <marker date="1539975908621" expanded="true" signature="145:559" ph="{...}" />
@@ -180,7 +180,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pinch_Zoom_Camera.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pinch_Zoom_Camera.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -344,7 +344,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="139" />
     <option name="y" value="-19" />
     <option name="width" value="1485" />
@@ -444,12 +444,12 @@
       <workItem from="1541279609862" duration="905000" />
       <workItem from="1541364297717" duration="3123000" />
       <workItem from="1541451249355" duration="2255000" />
-      <workItem from="1541460202478" duration="435000" />
+      <workItem from="1541460202478" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45544000" />
+    <option name="totallyTimeSpent" value="45887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +462,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -1109,19 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1539975908621" expanded="false" signature="6:100" ph="..." />
-            <marker date="1539975908621" expanded="true" signature="145:559" ph="{...}" />
-            <marker date="1539975908621" expanded="true" signature="231:303" ph="{...}" />
-            <marker date="1539975908621" expanded="true" signature="358:557" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1132,6 +1118,19 @@
             <marker date="1541460637921" expanded="true" signature="266:305" ph="{...}" />
             <marker date="1541460637921" expanded="true" signature="324:1124" ph="{...}" />
             <marker date="1541460637921" expanded="true" signature="366:1118" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+          <folding>
+            <marker date="1539975908621" expanded="false" signature="6:100" ph="..." />
+            <marker date="1539975908621" expanded="true" signature="145:559" ph="{...}" />
+            <marker date="1539975908621" expanded="true" signature="231:303" ph="{...}" />
+            <marker date="1539975908621" expanded="true" signature="358:557" ph="{...}" />
           </folding>
         </state>
       </provider>
