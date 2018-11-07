@@ -17,6 +17,10 @@ public class Flag_Ground_Checker : MonoBehaviour {
 
      public GameObject GroundObject;
      public GameObject WaterObject;
+
+     [Header("Shake")] public float Magnitude;
+     public float Roughness;
+     public float Time = 0.5f;
      
 
     public enum Terrain {
@@ -78,7 +82,7 @@ public class Flag_Ground_Checker : MonoBehaviour {
      public void ChangeFooting() {
 
 
-          EZCameraShake.CameraShaker.Instance.ShakeOnce(20f, 20f, 0, 0.5f);
+          EZCameraShake.CameraShaker.Instance.ShakeOnce(Magnitude, Roughness, 0, Time);
 
           
           GroundObject.SetActive(false);

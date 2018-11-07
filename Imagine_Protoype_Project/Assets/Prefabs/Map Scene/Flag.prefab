@@ -355,6 +355,9 @@ MonoBehaviour:
   MaxHue: 203
   GroundObject: {fileID: 1822321364992550}
   WaterObject: {fileID: 1641042025766714}
+  Magnitude: 0
+  Roughness: 0
+  Time: 0.5
   State: 0
 --- !u!114 &114885029791050942
 MonoBehaviour:
