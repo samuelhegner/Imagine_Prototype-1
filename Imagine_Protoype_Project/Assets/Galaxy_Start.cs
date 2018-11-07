@@ -4,25 +4,60 @@ using UnityEngine;
 
 public class Galaxy_Start : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+    Vector3[] setPos;
+
+    bool start;
+
+    // Use this for initialization
+    void Awake () {
+        for (int i = 0; i < transform.childCount; i++){
+            transform.GetChild(i).gameObject.AddComponent<Galaxy_Child>();
+        }
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if(start){
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                GameObject current = transform.GetChild(i).gameObject;
+                current.transform.position = Vector3.MoveTowards(current.transform.position, setPos[current.GetComponent<Galaxy_Child>().index], Time.deltaTime * 20f);
+
+                if (Vector3.Distance(current.transform.position, setPos[i]) < 0.1f)
+                {
+                    current.transform.parent = null;
+                }
+            }
+
+            if(transform.childCount == 0){
+                start = false;
+            }
+        }
+
+    }
 
 	void OnTriggerEnter2D(Collider2D other){
 		if(other.tag == "Player"){
 			CreateUniverse();
+            print("test");
 		}
 	}
 
 	void CreateUniverse(){
+
+        setPos = new Vector3[transform.childCount];
+
 		for(int i = 0; i < transform.childCount; i++){
-			transform.GetChild(i);
+            float ranX = transform.position.x + Random.Range(-20, 20);
+            float ranY = transform.position.y + Random.Range(10, 40);
+
+            setPos[i] = new Vector3(ranX, ranY, 0);
+            transform.GetChild(i).GetComponent<Galaxy_Child>().index = i;
 		}
-	}
+
+        start = true;
+    }
+            
+        
+
 }
