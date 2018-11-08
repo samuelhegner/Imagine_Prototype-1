@@ -12,6 +12,7 @@ TagManager:
   - Ray
   - Trail
   - Map_Interactable
+  - Hook
   layers:
   - Default
   - TransparentFX

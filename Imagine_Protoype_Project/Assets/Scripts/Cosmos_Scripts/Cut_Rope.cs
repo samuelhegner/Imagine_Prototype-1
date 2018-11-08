@@ -46,15 +46,29 @@ public class Cut_Rope : MonoBehaviour {
             } 
         }
 
+        
+
+        BaloonRise();
+	}
+
+    void LateUpdate(){
         if (numberRopesCut == 2) {
             cutRopes = true;
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement_Cosmos>().JourneyStarted = true;
             GameObject.FindGameObjectWithTag("Ray").GetComponent<LineRenderer>().enabled = false;
+
+            GameObject[] anchors = GameObject.FindGameObjectsWithTag("Anchor");
+
+            for(int i = 0; i < anchors.Length; i++){
+                anchors[i].GetComponent<Destroy_Self>().enabled = true;
+                for(int j = 0; j < anchors[i].transform.childCount; j++){
+                    anchors[i].transform.GetChild(j).GetComponent<Destroy_Self>().enabled = true;
+                }
+            }
+
             Destroy(gameObject);
         }
-
-        BaloonRise();
-	}
+    }
 
     void BaloonRise(){
         Vector3 goTo = new Vector3(player.transform.position.x, yPos + dist, player.transform.position.z);
