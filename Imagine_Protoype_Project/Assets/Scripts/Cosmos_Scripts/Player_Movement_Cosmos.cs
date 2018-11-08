@@ -61,7 +61,7 @@ public class Player_Movement_Cosmos : MonoBehaviour {
             }
 
             //changed to fixedDeltaTime because you are using fixed update. 
-            timer += Time.fixedDeltaTime;
+            //timer += Time.fixedDeltaTime;
 
             if (timer > timeToSwitch) {
 
