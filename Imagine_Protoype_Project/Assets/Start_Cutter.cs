@@ -16,6 +16,7 @@ public class Start_Cutter : MonoBehaviour {
 	void Update () {
 		if(start){
 			cutter.SetActive(true);
+			Destroy(this);
 		}
 	}
 }

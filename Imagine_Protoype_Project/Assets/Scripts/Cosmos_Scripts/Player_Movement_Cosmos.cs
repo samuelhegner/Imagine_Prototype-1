@@ -64,7 +64,6 @@ public class Player_Movement_Cosmos : MonoBehaviour {
             //timer += Time.fixedDeltaTime;
 
             if (timer > timeToSwitch) {
-
                 if (!loadingScene)
                 {
                     

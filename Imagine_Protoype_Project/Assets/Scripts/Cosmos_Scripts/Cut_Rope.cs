@@ -11,9 +11,16 @@ public class Cut_Rope : MonoBehaviour {
 
     int numberRopesCut;
 
+    GameObject player;
+    float yPos;
+
+    public float dist;
+
     void Start()
     {
         a = 1;
+        player = GameObject.Find("Player");
+        yPos = player.transform.position.y;
     }
 
     // Update is called once per frame
@@ -43,6 +50,15 @@ public class Cut_Rope : MonoBehaviour {
             cutRopes = true;
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Movement_Cosmos>().JourneyStarted = true;
             GameObject.FindGameObjectWithTag("Ray").GetComponent<LineRenderer>().enabled = false;
+            Destroy(gameObject);
         }
+
+        BaloonRise();
 	}
+
+    void BaloonRise(){
+        Vector3 goTo = new Vector3(player.transform.position.x, yPos + dist, player.transform.position.z);
+
+        player.transform.position = Vector3.Lerp(player.transform.position, goTo, Time.fixedDeltaTime * 3);
+    }
 }
