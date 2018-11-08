@@ -48,8 +48,11 @@ public class Galaxy_Start : MonoBehaviour {
         setPos = new Vector3[transform.childCount];
 
 		for(int i = 0; i < transform.childCount; i++){
-            float ranX = transform.position.x + Random.Range(-20, 20);
-            float ranY = transform.position.y + Random.Range(10, 40);
+            float ranX;
+            float ranY;
+
+            ranX = transform.position.x + Random.Range(-20, 20);
+            ranY = transform.position.y + Random.Range(10, 40);
 
             setPos[i] = new Vector3(ranX, ranY, 0);
             transform.GetChild(i).GetComponent<Galaxy_Child>().index = i;

@@ -18,7 +18,6 @@ public class Star_Collision : MonoBehaviour {
     {
         if (other.transform.tag == "Player") {
             int ran = Random.Range(0, 2);
-            print(ran);
 
             if (ran < 1f)
             {
