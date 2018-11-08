@@ -15,7 +15,6 @@ public class Start_Cutter : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(start){
-			print("test");
 			cutter.SetActive(true);
 		}
 	}
