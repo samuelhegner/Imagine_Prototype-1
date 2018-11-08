@@ -24,7 +24,7 @@ public class Activate_Journey : MonoBehaviour {
     }
 
     IEnumerator StopAnimation() {
-        yield return new WaitForSeconds(3.01f);
+        yield return new WaitForSeconds(3.1f);
         cam.GetComponent<Animator>().enabled = false;
         cam.GetComponent<Follow_Player_Camera>().enabled = true;
     }
