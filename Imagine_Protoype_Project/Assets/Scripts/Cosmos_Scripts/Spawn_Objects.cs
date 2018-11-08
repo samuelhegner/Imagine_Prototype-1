@@ -18,6 +18,7 @@ public class Spawn_Objects : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		Vector3 newPos = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth/2, cam.pixelHeight, 0));
+		testSquare.transform.position = newPos;
 	}
 }
