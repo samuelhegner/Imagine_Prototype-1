@@ -49,7 +49,7 @@ public class Game_Manager : MonoBehaviour
 
         Instantiate(TransitionTemplate);
 
-         yield return new WaitForSeconds(1f);
+         yield return new WaitForSeconds(2f);
         //yield return new WaitForSeconds(time);
         AsyncOperation loading = SceneManager.LoadSceneAsync(name);
 

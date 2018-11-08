@@ -14,13 +14,18 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 82c5739bf44967342b28ada09e4a6400
+    name: Journey_Audio_Volume
+  - guid: d7ff05be26a9e004488f1fb46216a776
+    name: Music_Volume
+  - guid: 9bd6df2fe104c834fa95b5dd40f4df6c
+    name: SFX_Volume
   m_AudioMixerGroupViews:
   - guids:
     - b1cc4a84845705846818dbb6da88b708
     - 0db9ad9f5b1afeb468e5d629a3ef8ea0
     - 70dbadca57526104a806798bcc6f361d
-    - 6d1b9711f07681041a208eca7c49283e
     - f0029270fb2168c4faf12926da0a2954
     name: View
   m_CurrentViewIndex: 0
@@ -37,12 +42,11 @@ AudioMixerGroupController:
   - {fileID: 243148456519676510}
   - {fileID: 243862759904171356}
   - {fileID: 243353145791776972}
-  - {fileID: 243408662992372026}
   m_Volume: 0d2bd301294820442bae391b5a54fda0
   m_Pitch: 6fb2babb7d3ef764e86975ffefa39d9d
   m_Effects:
   - {fileID: 24400004}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 4
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -86,7 +90,7 @@ AudioMixerGroupController:
   m_Pitch: 274443dd69246a148bf09ed1517eea48
   m_Effects:
   - {fileID: 244677191555447592}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 8
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -103,24 +107,7 @@ AudioMixerGroupController:
   m_Pitch: 8887ca1edd53c094d83e2f59a5d75766
   m_Effects:
   - {fileID: 244098643508181360}
-  m_UserColorIndex: 0
-  m_Mute: 0
-  m_Solo: 0
-  m_BypassEffects: 0
---- !u!243 &243408662992372026
-AudioMixerGroupController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Ambiance
-  m_AudioMixer: {fileID: 24100000}
-  m_GroupID: 6d1b9711f07681041a208eca7c49283e
-  m_Children: []
-  m_Volume: 36d45cc2a9a35a64d959ede069849d07
-  m_Pitch: b96fb8a20b7a6934ba1f11a94de7b31e
-  m_Effects:
-  - {fileID: 244779441991550440}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 2
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -137,7 +124,7 @@ AudioMixerGroupController:
   m_Pitch: b5579649d80b3f943bd671f3bacaf2cf
   m_Effects:
   - {fileID: 244008348246788536}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 7
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -176,19 +163,6 @@ AudioMixerEffectController:
   m_EffectID: 8d5069312fde2e347980d8f407bcf0f7
   m_EffectName: Attenuation
   m_MixLevel: 0ba3f407dd1b7ee4bb91a096855325e0
-  m_Parameters: []
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0
---- !u!244 &244779441991550440
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_EffectID: ebbbae548f1646a45bd4b98c3fbe2b08
-  m_EffectName: Attenuation
-  m_MixLevel: 948ad436ac093e04c9dab35b83c5088a
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
