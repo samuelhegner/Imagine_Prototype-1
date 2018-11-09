@@ -10,6 +10,9 @@ public class Player_Movement_Cosmos : MonoBehaviour {
 
     public bool trail;
     public float trailMod;
+
+    float acc;
+
     float playerHeight;
     float playerStartHeight;
     public float cameraZoomStart;
@@ -41,12 +44,19 @@ public class Player_Movement_Cosmos : MonoBehaviour {
         if (JourneyStarted) {
             if (PC)
             {
+                print(rb.velocity.y);
                 if(trail == false){
                     float hAxis = Input.GetAxis("Horizontal");
-                    rb.velocity = new Vector2(hAxis * tiltSpeed, risingSpeed);
+                    if(acc + risingSpeed > risingSpeed){
+                        acc -= Time.fixedDeltaTime * 0.75f;
+                    }
+                    rb.velocity = new Vector2(hAxis * tiltSpeed, risingSpeed + acc);
                 }else{
                     float hAxis = Input.GetAxis("Horizontal");
-                    rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed * trailMod);
+                    if(acc + risingSpeed < risingSpeed * trailMod){
+                        acc += Time.fixedDeltaTime * 0.75f;
+                    }
+                    rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed + acc);
                 }
                 
             }

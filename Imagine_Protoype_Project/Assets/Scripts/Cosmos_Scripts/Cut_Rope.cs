@@ -13,6 +13,7 @@ public class Cut_Rope : MonoBehaviour {
 
     GameObject player;
     float yPos;
+    float xPos;
 
     public float dist;
 
@@ -21,6 +22,7 @@ public class Cut_Rope : MonoBehaviour {
         a = 1;
         player = GameObject.Find("Player");
         yPos = player.transform.position.y;
+        xPos = player.transform.position.x;
     }
 
     // Update is called once per frame
@@ -71,8 +73,18 @@ public class Cut_Rope : MonoBehaviour {
     }
 
     void BaloonRise(){
-        Vector3 goTo = new Vector3(player.transform.position.x, yPos + dist, player.transform.position.z);
+        float xOffset;
+        if(cutLeft == true){
+            xOffset = 7.5f;
+            dist = 3.5f;
+        }else if(cutRight == true){
+            xOffset = -7.5f;
+            dist = 3.5f;
+        }else{
+            xOffset = 0f;
+        }
+        Vector3 goTo = new Vector3(xPos + xOffset, yPos + dist, player.transform.position.z);
 
-        player.transform.position = Vector3.Lerp(player.transform.position, goTo, Time.fixedDeltaTime * 3);
+        player.transform.position = Vector3.Lerp(player.transform.position, goTo, Time.fixedDeltaTime * 2f);
     }
 }
