@@ -34,6 +34,7 @@ public class Set_Position : MonoBehaviour {
 			float planetStart = player.GetComponent<Player_Movement_Cosmos>().ReachedPlanet();
 			if(planetStart <= 0){
 				activated = true;
+				gameObject.GetComponent<Activate_Endgame>().enabled = true;
 			}
 
 			if(activated){
