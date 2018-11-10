@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Activate_Endgame.cs" t="Include" />
         <e p="Adjust_Size.cs" t="Include" />
         <e p="Audio" t="Include">
           <e p="Audio_Scripts" t="Include">
@@ -17,6 +18,7 @@
         </e>
         <e p="Change_Sprite.cs" t="Include" />
         <e p="CreateTrail.cs" t="Include" />
+        <e p="Destroy_Self.cs" t="Include" />
         <e p="Galaxy_Child.cs" t="Include" />
         <e p="Galaxy_Start.cs" t="Include" />
         <e p="Plugins" t="Include">
@@ -114,6 +116,7 @@
         <e p="Set_Position.cs" t="Include" />
         <e p="Star_Collision.cs" t="Include" />
         <e p="Start_Cutter.cs" t="Include" />
+        <e p="Stay_In_Position.cs" t="Include" />
         <e p="Trail_Effect.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />

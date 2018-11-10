@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 
@@ -17,6 +18,8 @@ public bool playing;
      private AudioManager _audioManager;
 
      private Animator _animator;
+
+   //  public EventSystem ES;
 
      void Start() {
 
@@ -73,6 +76,8 @@ public bool playing;
                StartCoroutine(AutoHide(4f));
 
           }
+          
+          GetComponent<Audio_Settings_Manager>().WriteSettings();
 
 
      }
@@ -92,8 +97,11 @@ public bool playing;
           while (time > 0) {
 
 
-               
-               
+            //  if (ES.isFocused) {
+                //    time = 4f;
+
+             // }
+
                time -= Time.deltaTime;
 
                yield return null;
@@ -107,7 +115,7 @@ public bool playing;
           }
           
           
-ToggleMenu();
+//ToggleMenu();
           
           
 

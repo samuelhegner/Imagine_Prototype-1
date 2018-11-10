@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 
 public class Audio_Slider_Listener : MonoBehaviour {
@@ -20,6 +21,14 @@ public class Audio_Slider_Listener : MonoBehaviour {
      public Type SliderType;
 
      public void ChangeVolume(float newVolume) {
+
+
+          if (newVolume == GetComponent<Slider>().minValue) {
+
+               newVolume = -80;
+
+          }
+
 
           switch (SliderType) {
 
@@ -52,7 +61,7 @@ public class Audio_Slider_Listener : MonoBehaviour {
           }
           
           
-          FindObjectOfType<Audio_Settings_Manager>().WriteSettings();
+          //FindObjectOfType<Audio_Settings_Manager>().WriteSettings();
 
 
      }
