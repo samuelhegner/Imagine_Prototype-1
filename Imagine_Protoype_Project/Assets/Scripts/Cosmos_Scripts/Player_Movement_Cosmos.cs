@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player_Movement_Cosmos : MonoBehaviour {
+public class Player_Movement_Cosmos : MonoBehaviour
+{
 
     public bool PC;
     public bool JourneyStarted;
@@ -13,7 +14,7 @@ public class Player_Movement_Cosmos : MonoBehaviour {
 
     float acc;
 
-    float playerHeight;
+    public float playerHeight;
     float playerStartHeight;
     public float cameraZoomStart;
     public float risingSpeed = 0;
@@ -26,39 +27,48 @@ public class Player_Movement_Cosmos : MonoBehaviour {
     public float timeToSwitch;
     float timer;
 
+    public float planetHeight;
+
     Camera cam;
 
     Rigidbody2D rb;
 
 
-	void Start () {
+    void Start()
+    {
         playerStartHeight = transform.position.y;
         cam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
-	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
         playerHeight = transform.position.y;
 
-        if (JourneyStarted) {
+        if (JourneyStarted)
+        {
             if (PC)
             {
-                print(rb.velocity.y);
-                if(trail == false){
+                if (trail == false)
+                {
                     float hAxis = Input.GetAxis("Horizontal");
-                    if(acc + risingSpeed > risingSpeed){
+                    if (acc + risingSpeed > risingSpeed)
+                    {
                         acc -= Time.fixedDeltaTime * 0.75f;
                     }
                     rb.velocity = new Vector2(hAxis * tiltSpeed, risingSpeed + acc);
-                }else{
+                }
+                else
+                {
                     float hAxis = Input.GetAxis("Horizontal");
-                    if(acc + risingSpeed < risingSpeed * trailMod){
+                    if (acc + risingSpeed < risingSpeed * trailMod)
+                    {
                         acc += Time.fixedDeltaTime * 0.75f;
                     }
                     rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed + acc);
                 }
-                
+
             }
             else
             {
@@ -73,19 +83,22 @@ public class Player_Movement_Cosmos : MonoBehaviour {
             //changed to fixedDeltaTime because you are using fixed update. 
             //timer += Time.fixedDeltaTime;
 
-            if (timer > timeToSwitch) {
+            if (timer > timeToSwitch)
+            {
                 if (!loadingScene)
                 {
-                    
+
                     //SceneManager.LoadScene("Map_Scene");
                     Game_Manager.Instance.LoadScene("Map_Scene");
 
                     loadingScene = true;
                 }
-
             }
-
-
         }
-	}
+    }
+
+    public float ReachedPlanet()
+    {
+        return planetHeight - (playerHeight - playerStartHeight);
+    }
 }
