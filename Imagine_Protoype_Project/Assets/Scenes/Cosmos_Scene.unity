@@ -6620,7 +6620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea9adc7bdd3cc14f8ccca3414fb5c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PC: 1
+  PC: 0
   JourneyStarted: 0
   trail: 0
   trailMod: 2
@@ -6630,7 +6630,8 @@ MonoBehaviour:
   cameraZoomSpeed: 0.01
   tiltSpeed: 1.5
   timeToSwitch: 35
-  planetHeight: 100
+  planetHeight: 200
+  angleOffSet: 0
 --- !u!61 &1429681283
 BoxCollider2D:
   m_ObjectHideFlags: 0

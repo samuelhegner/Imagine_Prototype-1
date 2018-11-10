@@ -29,6 +29,8 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
     public float planetHeight;
 
+    public float angleOffSet;
+
     Camera cam;
 
     Rigidbody2D rb;
@@ -72,7 +74,31 @@ public class Player_Movement_Cosmos : MonoBehaviour
             }
             else
             {
-                rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed, risingSpeed);
+                if(trail == false){
+                    if (acc + risingSpeed > risingSpeed)
+                    {
+                        acc -= Time.fixedDeltaTime * 0.75f;
+                    }
+                    
+                    rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed, risingSpeed + acc);
+
+                }else{
+                    if (acc + risingSpeed < risingSpeed * trailMod)
+                    {
+                        acc += Time.fixedDeltaTime * 0.75f;
+                    }
+                    
+                    rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed * trailMod, risingSpeed + acc);
+
+                }
+
+                Vector3 toVector = Vector3.up;
+                float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
+
+                angleOffSet = (-Input.acceleration.x * 15f) - 90f;
+                Quaternion NewRot = Quaternion.AngleAxis(angle + angleOffSet, Vector3.forward);
+
+                transform.rotation = Quaternion.Slerp(transform.rotation, NewRot, Time.fixedDeltaTime * tiltSpeed);
             }
 
             if (cameraZoomStart <= playerHeight - playerStartHeight)
