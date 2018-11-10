@@ -6620,7 +6620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea9adc7bdd3cc14f8ccca3414fb5c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PC: 0
+  PC: 1
   JourneyStarted: 0
   trail: 0
   trailMod: 2

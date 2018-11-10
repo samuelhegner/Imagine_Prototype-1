@@ -52,9 +52,9 @@ public class Player_Movement_Cosmos : MonoBehaviour
         {
             if (PC)
             {
+                float hAxis = Input.GetAxis("Horizontal");
                 if (trail == false)
                 {
-                    float hAxis = Input.GetAxis("Horizontal");
                     if (acc + risingSpeed > risingSpeed)
                     {
                         acc -= Time.fixedDeltaTime * 0.75f;
@@ -63,13 +63,19 @@ public class Player_Movement_Cosmos : MonoBehaviour
                 }
                 else
                 {
-                    float hAxis = Input.GetAxis("Horizontal");
                     if (acc + risingSpeed < risingSpeed * trailMod)
                     {
                         acc += Time.fixedDeltaTime * 0.75f;
                     }
                     rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed + acc);
                 }
+                Vector3 toVector = Vector3.up;
+                float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
+
+                angleOffSet = (-hAxis * 15f) - 90f;
+                Quaternion NewRot = Quaternion.AngleAxis(angle + angleOffSet, Vector3.forward);
+
+                transform.rotation = Quaternion.Slerp(transform.rotation, NewRot, Time.fixedDeltaTime * tiltSpeed);
 
             }
             else
