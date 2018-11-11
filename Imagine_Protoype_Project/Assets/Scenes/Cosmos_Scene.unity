@@ -7078,7 +7078,7 @@ MonoBehaviour:
   trailMod: 2
   playerHeight: 0
   risingSpeed: 3
-  cameraZoomPercentage: 75
+  cameraZoomPercentage: 50
   maxCameraSize: 50
   tiltSpeed: 1.5
   angleOffSet: 0

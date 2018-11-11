@@ -17,7 +17,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
     float playerStartHeight;
     public float risingSpeed = 0;
 
-    float cameraZoomSpeed;
+    float cameraZoomInc;
 
     float cameraZoomStart;
     [Range(0, 100)]
@@ -56,8 +56,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
         print(planetHeight);
 
         SetZoomSpeed(planetHeight, minutes, seconds);
-        cameraZoomSpeed = 0.1f
-        ;
+        
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -128,7 +127,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
             if (cameraZoomStart <= playerHeight - playerStartHeight && cam.orthographicSize <= maxCameraSize)
             {
-                cam.orthographicSize += cameraZoomSpeed;
+                cam.orthographicSize += cameraZoomInc;
             }
         }
     }
@@ -146,12 +145,22 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
     void SetZoomSpeed(float planetY, float min, float sec){
         float totalSeconds = (min * 60f) + sec;
+        
+        
         cameraZoomStart = planetY * (cameraZoomPercentage/ 100);
         print(cameraZoomStart);
+        
+        
         float timeToShift = totalSeconds - (totalSeconds * (cameraZoomPercentage/ 100));
+        
+        
+        
+        
+        
         print("Time to Shift =: " + timeToShift);
         print("ortho size = "+ cam.orthographicSize);
-        cameraZoomSpeed = (maxCameraSize - cam.orthographicSize)/(timeToShift / 0.02f);
-        print(cameraZoomSpeed);
+        cameraZoomInc = (maxCameraSize - cam.orthographicSize)/(timeToShift / 0.02f);
+
+        print(cameraZoomInc);
     } 
 }
