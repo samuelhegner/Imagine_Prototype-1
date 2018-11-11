@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Player_Movement_Cosmos : MonoBehaviour
 {
-
     public bool PC;
     public bool JourneyStarted;
 
@@ -16,20 +15,32 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
     public float playerHeight;
     float playerStartHeight;
-    public float cameraZoomStart;
     public float risingSpeed = 0;
 
-    public float cameraZoomSpeed;
+    float cameraZoomSpeed;
+
+    float cameraZoomStart;
+    [Range(0, 100)]
+    public float cameraZoomPercentage;
+    public float maxCameraSize;
+
     public float tiltSpeed;
 
     private bool loadingScene;
 
-    public float timeToSwitch;
     float timer;
 
-    public float planetHeight;
+    float planetHeight;
 
     public float angleOffSet;
+
+    [Header("Time to Reach Planet")]
+    [Tooltip("Set the minutes required untill the player reaches the planet endgame")]
+    [Range(0, 59)]
+    public int minutes;
+    [Tooltip("Set the seconds required untill the player reaches the planet endgame")]
+    [Range(0, 59)]
+    public int seconds;
 
     Camera cam;
 
@@ -37,9 +48,16 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
 
     void Start()
-    {
-        playerStartHeight = transform.position.y;
+    {   
         cam = Camera.main;
+
+        playerStartHeight = transform.position.y;
+        planetHeight = PlanetDistanceCalculation(minutes, seconds, risingSpeed);
+        print(planetHeight);
+
+        SetZoomSpeed(planetHeight, minutes, seconds);
+        cameraZoomSpeed = 0.1f
+        ;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -69,6 +87,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
                     }
                     rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed + acc);
                 }
+                
                 Vector3 toVector = Vector3.up;
                 float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
 
@@ -107,24 +126,9 @@ public class Player_Movement_Cosmos : MonoBehaviour
                 transform.rotation = Quaternion.Slerp(transform.rotation, NewRot, Time.fixedDeltaTime * tiltSpeed);
             }
 
-            if (cameraZoomStart <= playerHeight - playerStartHeight)
+            if (cameraZoomStart <= playerHeight - playerStartHeight && cam.orthographicSize <= maxCameraSize)
             {
                 cam.orthographicSize += cameraZoomSpeed;
-            }
-
-            //changed to fixedDeltaTime because you are using fixed update. 
-            //timer += Time.fixedDeltaTime;
-
-            if (timer > timeToSwitch)
-            {
-                if (!loadingScene)
-                {
-
-                    //SceneManager.LoadScene("Map_Scene");
-                    Game_Manager.Instance.LoadScene("Map_Scene");
-
-                    loadingScene = true;
-                }
             }
         }
     }
@@ -133,4 +137,21 @@ public class Player_Movement_Cosmos : MonoBehaviour
     {
         return planetHeight - (playerHeight - playerStartHeight);
     }
+
+    public float PlanetDistanceCalculation(float min, float sec, float speed){
+        float totalSeconds = (min * 60f) + sec;
+        float distanceToSet = totalSeconds * speed;
+        return distanceToSet;
+    }
+
+    void SetZoomSpeed(float planetY, float min, float sec){
+        float totalSeconds = (min * 60f) + sec;
+        cameraZoomStart = planetY * (cameraZoomPercentage/ 100);
+        print(cameraZoomStart);
+        float timeToShift = totalSeconds - (totalSeconds * (cameraZoomPercentage/ 100));
+        print("Time to Shift =: " + timeToShift);
+        print("ortho size = "+ cam.orthographicSize);
+        cameraZoomSpeed = (maxCameraSize - cam.orthographicSize)/(timeToShift / 0.02f);
+        print(cameraZoomSpeed);
+    } 
 }

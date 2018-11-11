@@ -14,6 +14,7 @@ TagManager:
   - Map_Interactable
   - Hook
   - Planet
+  - Point
   layers:
   - Default
   - TransparentFX
@@ -68,4 +69,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2347967157
+    locked: 0
+  - name: Player
+    uniqueID: 1546811699
     locked: 0

@@ -24,7 +24,7 @@ public class Set_Position : MonoBehaviour {
 	void Update () {
 		if(activated == false){
 			Vector3 newPos = cam.ScreenToWorldPoint(new Vector3(cam.pixelWidth, cam.pixelHeight, 0));
-			newPos.z = 0f;
+			newPos.z = 1;
 			newPos.x -= xBuffer;
 			newPos.y += yBuffer;
 			transform.position = newPos;
@@ -35,10 +35,6 @@ public class Set_Position : MonoBehaviour {
 			if(planetStart <= 0){
 				activated = true;
 				gameObject.GetComponent<Activate_Endgame>().enabled = true;
-			}
-
-			if(activated){
-				
 			}
 		}
 
