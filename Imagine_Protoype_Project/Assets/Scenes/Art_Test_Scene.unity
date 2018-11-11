@@ -1434,6 +1434,29 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a8434a1a3d15724dbcf268e9b7d9f44, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &981516833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1194022233572636, guid: 9a8434a1a3d15724dbcf268e9b7d9f44,
+    type: 2}
+  m_PrefabInternal: {fileID: 981516832}
+--- !u!95 &981516834
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 981516833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1102020672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,6 +1574,29 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cc4c2a30e387ab4fa532933d1309e3b, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1122716587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1080159968888204, guid: 5cc4c2a30e387ab4fa532933d1309e3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1122716586}
+--- !u!95 &1122716588
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122716587}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1149620350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,7 +2458,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 50
+  orthographic size: 24
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2435,7 +2481,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1602040639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -583.8}
+  m_LocalPosition: {x: 1, y: 8.8, z: -583.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
