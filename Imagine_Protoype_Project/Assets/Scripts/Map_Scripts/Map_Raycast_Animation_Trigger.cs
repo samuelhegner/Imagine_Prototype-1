@@ -52,11 +52,20 @@ heldAnimators.Add(hit.collider.gameObject.GetComponent<Animator>());
 
 
 	}
-	
-	
-	
-	
 
+	private void OnMouseUp() {
+
+		foreach (Animator A in heldAnimators) {
+			A.SetBool("Held", false);
+			
+			
+		}
+		
+		
+		heldAnimators.Clear();
+		
+		
+	}
 
 
 }
