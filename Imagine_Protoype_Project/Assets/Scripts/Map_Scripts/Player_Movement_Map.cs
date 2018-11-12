@@ -28,9 +28,17 @@ public class Player_Movement_Map : MonoBehaviour {
     Vector2 location;
 
     public GameObject Flag;
+    public GameObject Basket;
 
-    [SerializeField]
+    TrailRenderer trail;
+
+
     float movementSpeed;
+
+    public float MaxSpeed;
+    public float MinSpeed;
+
+    public float MaxDistance;
 
 	void Awake () {
         rb = GetComponent<Rigidbody2D>();
@@ -38,9 +46,12 @@ public class Player_Movement_Map : MonoBehaviour {
         twoFingers = false;
         location = transform.position;
         waitingForTouch = true;
+        trail = Basket.GetComponent<TrailRenderer>();
 	}
 	
 	void Update () {
+
+        AdjustTrail();
 
         if (tilt == false)
         {
@@ -139,6 +150,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
     Vector2 SetPointToMove(Vector2 screenPosition) {
         Vector2 pointToMove = Camera.main.ScreenToWorldPoint(screenPosition);
+        SetMoveSpeed(MinSpeed, MaxSpeed, pointToMove, transform.position);
         return pointToMove;
     }
 
@@ -155,5 +167,42 @@ public class Player_Movement_Map : MonoBehaviour {
         
         Debug.Log("Dropping flag");
         
+    }
+
+    void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current){
+        float dist = Vector2.Distance(traget, current);
+        print(dist);
+        if(dist < MaxDistance){
+            float speedPercent = dist/MaxDistance;
+            movementSpeed = MaxSpeed * speedPercent;
+        }else{
+            movementSpeed = MaxSpeed;
+        }
+
+        if(movementSpeed < MinSpeed){
+            movementSpeed = MinSpeed;
+        }
+
+        print(movementSpeed);
+    }
+
+    float Map(float a, float b, float c, float d, float e)
+    {
+        float cb = c - b;
+        float de = e - d;
+        float howFar = (a - b) / cb;
+        return d + howFar * de;
+    }
+
+    void AdjustTrail(){
+        float time;
+        time = Map(movementSpeed, MinSpeed, MaxSpeed, 0, 5);
+        trail.time = time;
+        float a;
+        a = Map(movementSpeed, MinSpeed, MaxSpeed, 0f, 1f);
+        Color col = new Color(1, 1, 1, a);
+        Color endCol = new Color(1, 1, 1, 0);
+        trail.startColor = col;
+        trail.endColor = endCol;
     }
 }
