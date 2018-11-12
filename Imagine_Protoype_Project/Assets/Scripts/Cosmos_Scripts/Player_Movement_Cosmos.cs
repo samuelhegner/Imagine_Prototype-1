@@ -63,6 +63,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        print(Time.fixedDeltaTime);
         playerHeight = transform.position.y;
 
         if (JourneyStarted)
@@ -153,13 +154,8 @@ public class Player_Movement_Cosmos : MonoBehaviour
         
         float timeToShift = totalSeconds - (totalSeconds * (cameraZoomPercentage/ 100));
         
-        
-        
-        
-        
-        print("Time to Shift =: " + timeToShift);
-        print("ortho size = "+ cam.orthographicSize);
-        cameraZoomInc = (maxCameraSize - cam.orthographicSize)/(timeToShift / 0.02f);
+
+        cameraZoomInc = (maxCameraSize - cam.orthographicSize)/(timeToShift / Time.deltaTime);
 
         print(cameraZoomInc);
     } 
