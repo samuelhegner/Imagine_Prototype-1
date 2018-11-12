@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 [RequireComponent(typeof(AudioManager))]
@@ -19,6 +20,14 @@ public bool playing;
 
      private Animator _animator;
 
+
+     public Sprite PauseButton;
+     public Sprite PlayButton;
+
+     public Image PausePlayButton;
+[Space]
+     public GameObject EndSceneUI;
+
    //  public EventSystem ES;
 
      void Start() {
@@ -29,9 +38,36 @@ public bool playing;
           
           _audioManager.Play(CurrentJourneyName, true, 2f);
           playing = true;
-          
+
+         // soundInfo SI = _audioManager.GetSoundData(CurrentJourneyName);
+
           
 
+
+
+     }
+
+     IEnumerator waitForEndOfJourney() {
+
+
+          while (true) {
+               while (playing) {
+
+
+yield return new WaitForSeconds(0.5f);
+
+                    soundInfo SI = _audioManager.GetSoundData(CurrentJourneyName);
+
+                    if (SI.currentTime >= SI.length * 0.99f) {
+
+
+                         EndSceneUI.SetActive(true);
+
+                    }
+
+
+               }
+          }
 
      }
 
@@ -41,15 +77,25 @@ public bool playing;
           if (playing) {
 
                _audioManager.Pause(CurrentJourneyName);
-               
-               
+
+               PausePlayButton.sprite = PlayButton;
+
+
           } else {
 
                _audioManager.Play(CurrentJourneyName);
+               PausePlayButton.sprite = PauseButton;
+               
                
           }
 
           playing = !playing;
+          
+          
+          
+          
+          
+          
 
 
      }
