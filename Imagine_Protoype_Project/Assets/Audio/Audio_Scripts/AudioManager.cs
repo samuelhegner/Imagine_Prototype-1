@@ -245,4 +245,29 @@ public class AudioManager : MonoBehaviour {
 
 	}
 
+
+	public soundInfo GetSoundData(string name) {
+
+		Sound s = Array.Find(sounds, sound => sound.name == name);
+		
+		soundInfo SI = new soundInfo();
+
+		SI.length = s.source.clip.length;
+		SI.currentTime = s.source.time;
+
+		return SI;
+
+	}
+
+
+
+
+}
+
+public struct soundInfo {
+
+	public float length;
+	public float currentTime;
+
+
 }
