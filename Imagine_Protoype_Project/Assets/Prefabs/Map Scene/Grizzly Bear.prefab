@@ -260,9 +260,11 @@ GameObject:
   - component: {fileID: 4878095409847144}
   - component: {fileID: 212238747047254572}
   - component: {fileID: 95636756470328122}
+  - component: {fileID: 114905316508599220}
+  - component: {fileID: 70911435228161150}
   m_Layer: 0
   m_Name: body
-  m_TagString: Untagged
+  m_TagString: Map_Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -490,6 +492,21 @@ Transform:
   m_Father: {fileID: 4443128541957714}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &70911435228161150
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947171863248048}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.5746771, y: -0.4859867}
+  m_Size: {x: 7.1935167, y: 4.8423405}
+  m_Direction: 1
 --- !u!95 &95636756470328122
 Animator:
   serializedVersion: 3
@@ -508,6 +525,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114905316508599220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947171863248048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89bbcd34c4a9a9d4cb3671bb71344e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212147388620142168
 SpriteRenderer:
   m_ObjectHideFlags: 1

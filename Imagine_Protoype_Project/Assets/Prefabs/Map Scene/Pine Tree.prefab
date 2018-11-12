@@ -20,9 +20,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4140633272037896}
   - component: {fileID: 212806103565261140}
+  - component: {fileID: 95450735487154246}
+  - component: {fileID: 70757172567228672}
+  - component: {fileID: 114855593839153446}
   m_Layer: 0
-  m_Name: PineTreeTrunk
-  m_TagString: Untagged
+  m_Name: TreeTrunk
+  m_TagString: Map_Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,7 +55,7 @@ GameObject:
   - component: {fileID: 4203643969639480}
   - component: {fileID: 212904007254975050}
   m_Layer: 0
-  m_Name: PineTreeTop
+  m_Name: TreeTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,6 +102,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &70757172567228672
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080159968888204}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0068674088, y: 2.7964578}
+  m_Size: {x: 4.5341234, y: 7.8429155}
+  m_Direction: 0
+--- !u!95 &95450735487154246
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080159968888204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114855593839153446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080159968888204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89bbcd34c4a9a9d4cb3671bb71344e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212806103565261140
 SpriteRenderer:
   m_ObjectHideFlags: 1
