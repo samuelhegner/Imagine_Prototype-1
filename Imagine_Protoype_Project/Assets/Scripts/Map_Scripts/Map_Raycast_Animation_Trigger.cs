@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Map_Raycast_Animation_Trigger : MonoBehaviour {
 
+
+	private List<Animator> heldAnimators = new List<Animator>();
+	
+	
 	private void Update() {
 		if (Input.GetMouseButtonDown(0)) {
 
@@ -35,6 +39,9 @@ AttemptTrigger();
 
 
 				hit.collider.gameObject.GetComponent<Animator>().SetTrigger("Animate");
+				hit.collider.gameObject.GetComponent<Animator>().SetBool("Held", true);
+heldAnimators.Add(hit.collider.gameObject.GetComponent<Animator>());
+				
 				
 				
 			}
@@ -45,6 +52,10 @@ AttemptTrigger();
 
 
 	}
+	
+	
+	
+	
 
 
 

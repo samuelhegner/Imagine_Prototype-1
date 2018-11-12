@@ -25,6 +25,7 @@
         <e p="Galaxy_Start.cs" t="Include" />
         <e p="layerSortOnY.cs" t="Include" />
         <e p="Map_Layer_manager.cs" t="Include" />
+        <e p="Parallax.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">
