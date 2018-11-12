@@ -155,7 +155,7 @@ public class Player_Movement_Map : MonoBehaviour {
     }
 
     void MoveToPoint(Vector2 location) {
-        transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, location - new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f), movementSpeed * Time.deltaTime);
     }
 
     void DropFlag() {
