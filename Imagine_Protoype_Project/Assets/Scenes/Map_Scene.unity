@@ -1477,6 +1477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
+  maxDist: 45
   x: 0
 --- !u!1 &661291779
 GameObject:
@@ -1706,6 +1707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
+  maxDist: 45
   x: 1
 --- !u!1 &799631895
 GameObject:
@@ -2335,8 +2337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orthoZoomSpeed: 0.1
-  maxZoom: 100
-  minZoom: 24
+  maxZoom: 200
+  minZoom: 40
 --- !u!1 &1017412290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3350,6 +3352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
+  maxDist: 45
   x: 1
 --- !u!1 &1396697595
 GameObject:
@@ -3747,6 +3750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCountdown: 5
   speed: 2
+  maxDist: 45
   x: 0
 --- !u!1 &1615719687
 GameObject:
