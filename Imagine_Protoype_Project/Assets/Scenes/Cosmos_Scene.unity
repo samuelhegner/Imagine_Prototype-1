@@ -1823,6 +1823,11 @@ Prefab:
       propertyPath: duration
       value: 0.85
       objectReference: {fileID: 0}
+    - target: {fileID: 198249845983852054, guid: 6b11adf82918ebb4099236e803917c89,
+        type: 2}
+      propertyPath: lengthInSec
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b11adf82918ebb4099236e803917c89, type: 2}
   m_IsPrefabAsset: 0
@@ -4930,7 +4935,7 @@ Prefab:
     - target: {fileID: 114910801451485840, guid: e6316709058122d4e9d0f83fd20d048c,
         type: 2}
       propertyPath: duration
-      value: 1.1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
         type: 2}
@@ -4955,7 +4960,7 @@ Prefab:
     - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
         type: 2}
       propertyPath: lengthInSec
-      value: 1.7
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6316709058122d4e9d0f83fd20d048c, type: 2}
@@ -7150,8 +7155,8 @@ MonoBehaviour:
   maxCameraSize: 50
   tiltSpeed: 1.5
   angleOffSet: 0
-  minutes: 1
-  seconds: 20
+  minutes: 0
+  seconds: 10
 --- !u!61 &1429681283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13977,6 +13982,16 @@ Prefab:
       propertyPath: m_Name
       value: Cloud_3 Example
       objectReference: {fileID: 0}
+    - target: {fileID: 114560825962265976, guid: f84a9418344d7ef49b0b4d099e11bddb,
+        type: 2}
+      propertyPath: duration
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 198970230888994222, guid: f84a9418344d7ef49b0b4d099e11bddb,
+        type: 2}
+      propertyPath: lengthInSec
+      value: 1.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f84a9418344d7ef49b0b4d099e11bddb, type: 2}
   m_IsPrefabAsset: 0
@@ -14428,6 +14443,10 @@ Prefab:
     - target: {fileID: 1954915508890088, guid: 7423e954a18414f48b0468b7376cd944, type: 2}
       propertyPath: m_Name
       value: Star_Sparks (5 Points)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290871057213688, guid: 7423e954a18414f48b0468b7376cd944, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7423e954a18414f48b0468b7376cd944, type: 2}

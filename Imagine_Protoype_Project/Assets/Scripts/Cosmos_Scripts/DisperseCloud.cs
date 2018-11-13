@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class DisperseCloud : MonoBehaviour {
 
-    bool finished; 
+    bool finished;
+    private bool played;
 
     public float minimum = 0.0f;
     public float maximum = 1f;
     public float duration = 6f;
     private float startTime;
+    private ParticleSystem part;
+    private ParticleSystem.MainModule mm;
 
     public SpriteRenderer sprite;
 
     private void Awake()
     {
         finished = true;
+        part = GetComponent<ParticleSystem>();
+        mm = part.main;
+        played = false;
     }
 
     private void Update()
@@ -24,14 +30,16 @@ public class DisperseCloud : MonoBehaviour {
             FadeSprite();
             if (sprite.color.a == 0) {
                 finished = true;
-                Invoke("DestroyObj", 4);
+                Invoke("DestroyObj", mm.duration);
             }
         }
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if (other.transform.tag == "Player") {
+        if (other.transform.tag == "Player" && played == false) {
             Puff();
+            played = true;
+
         }
     }
 
@@ -40,6 +48,7 @@ public class DisperseCloud : MonoBehaviour {
         startTime = Time.time;
         part.Play();
         finished = false;
+        
     }
 
     void FadeSprite() {
