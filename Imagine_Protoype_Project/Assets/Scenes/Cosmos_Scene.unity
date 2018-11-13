@@ -4922,46 +4922,6 @@ Prefab:
       propertyPath: m_Name
       value: Cloud_2 Example
       objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: InitialModule.maxNumParticles
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: ShapeModule.radius.value
-      value: 0.754554
-      objectReference: {fileID: 0}
-    - target: {fileID: 114910801451485840, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: duration
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: SizeBySpeedModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: ShapeModule.radiusThickness
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 198569137337550042, guid: e6316709058122d4e9d0f83fd20d048c,
-        type: 2}
-      propertyPath: lengthInSec
-      value: 1.2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6316709058122d4e9d0f83fd20d048c, type: 2}
   m_IsPrefabAsset: 0
