@@ -7,8 +7,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Activate_Endgame.cs" t="Include" />
-        <e p="Adjust_Size.cs" t="Include" />
         <e p="Audio" t="Include">
           <e p="Audio_Scripts" t="Include">
             <e p="Audio_Slider_Listener.cs" t="Include" />
@@ -17,15 +15,6 @@
             <e p="Sound.cs" t="Include" />
           </e>
         </e>
-        <e p="Beam_Detection.cs" t="Include" />
-        <e p="Change_Sprite.cs" t="Include" />
-        <e p="CreateTrail.cs" t="Include" />
-        <e p="Destroy_Self.cs" t="Include" />
-        <e p="Galaxy_Child.cs" t="Include" />
-        <e p="Galaxy_Start.cs" t="Include" />
-        <e p="layerSortOnY.cs" t="Include" />
-        <e p="Map_Layer_manager.cs" t="Include" />
-        <e p="Parallax.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">
@@ -71,19 +60,34 @@
             </e>
           </e>
         </e>
-        <e p="Push_Player_Back.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Cosmos_Scripts" t="Include">
+            <e p="Activate_Endgame.cs" t="Include" />
             <e p="Activate_Journey.cs" t="Include" />
+            <e p="Adjust_Size.cs" t="Include" />
+            <e p="Beam_Detection.cs" t="Include" />
+            <e p="Change_Sprite.cs" t="Include" />
+            <e p="CreateTrail.cs" t="Include" />
             <e p="Cut_Rope.cs" t="Include" />
+            <e p="Destroy_Self.cs" t="Include" />
             <e p="DisperseCloud.cs" t="Include" />
             <e p="DrawRay.cs" t="Include" />
             <e p="DrawRope.cs" t="Include" />
+            <e p="Galaxy_Child.cs" t="Include" />
+            <e p="Galaxy_Start.cs" t="Include" />
             <e p="Line_Info.cs" t="Include" />
+            <e p="Parallax.cs" t="Include" />
             <e p="Player_Movement_Cosmos.cs" t="Include" />
             <e p="PulseSize.cs" t="Include" />
             <e p="Rope_Creator.cs" t="Include" />
+            <e p="Set_Cloud_Type.cs" t="Include" />
+            <e p="Set_Position.cs" t="Include" />
             <e p="Spawn_Objects.cs" t="Include" />
+            <e p="Star_Collision.cs" t="Include" />
+            <e p="Star_EnableParticles.cs" t="Include" />
+            <e p="Start_Cutter.cs" t="Include" />
+            <e p="Stay_In_Position.cs" t="Include" />
+            <e p="Trail_Effect.cs" t="Include" />
             <e p="Weight.cs" t="Include" />
           </e>
           <e p="Forest_Minigame_Scripts" t="Include">
@@ -108,9 +112,12 @@
           </e>
           <e p="Map_Scripts" t="Include">
             <e p="Flag_Ground_Checker.cs" t="Include" />
+            <e p="layerSortOnY.cs" t="Include" />
+            <e p="Map_Layer_manager.cs" t="Include" />
             <e p="Map_Raycast_Animation_Trigger.cs" t="Include" />
             <e p="PCSlider_Map.cs" t="Include" />
             <e p="Player_Movement_Map.cs" t="Include" />
+            <e p="Push_Player_Back.cs" t="Include" />
             <e p="Site_Finder.cs" t="Include" />
             <e p="Site_Info.cs" t="Include" />
           </e>
@@ -118,12 +125,6 @@
             <e p="Scene_Change_Menu.cs" t="Include" />
           </e>
         </e>
-        <e p="Set_Cloud_Type.cs" t="Include" />
-        <e p="Set_Position.cs" t="Include" />
-        <e p="Star_Collision.cs" t="Include" />
-        <e p="Start_Cutter.cs" t="Include" />
-        <e p="Stay_In_Position.cs" t="Include" />
-        <e p="Trail_Effect.cs" t="Include" />
       </e>
       <e p="Imagine_Protoype_Project.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
