@@ -48,7 +48,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
 
     void Start()
-    {   
+    {
         cam = Camera.main;
 
         playerStartHeight = transform.position.y;
@@ -56,14 +56,13 @@ public class Player_Movement_Cosmos : MonoBehaviour
         print(planetHeight);
 
         SetZoomSpeed(planetHeight, minutes, seconds);
-        
+
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        print(Time.fixedDeltaTime);
         playerHeight = transform.position.y;
 
         if (JourneyStarted)
@@ -87,7 +86,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
                     }
                     rb.velocity = new Vector2(hAxis * tiltSpeed * trailMod, risingSpeed + acc);
                 }
-                
+
                 Vector3 toVector = Vector3.up;
                 float angle = Mathf.Atan2(toVector.y, toVector.x) * Mathf.Rad2Deg;
 
@@ -99,20 +98,23 @@ public class Player_Movement_Cosmos : MonoBehaviour
             }
             else
             {
-                if(trail == false){
+                if (trail == false)
+                {
                     if (acc + risingSpeed > risingSpeed)
                     {
                         acc -= Time.fixedDeltaTime * 0.75f;
                     }
-                    
+
                     rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed, risingSpeed + acc);
 
-                }else{
+                }
+                else
+                {
                     if (acc + risingSpeed < risingSpeed * trailMod)
                     {
                         acc += Time.fixedDeltaTime * 0.75f;
                     }
-                    
+
                     rb.velocity = new Vector2(Input.acceleration.x * tiltSpeed * trailMod, risingSpeed + acc);
 
                 }
@@ -138,25 +140,32 @@ public class Player_Movement_Cosmos : MonoBehaviour
         return planetHeight - (playerHeight - playerStartHeight);
     }
 
-    public float PlanetDistanceCalculation(float min, float sec, float speed){
+    public float PlanetDistanceCalculation(float min, float sec, float speed)
+    {
         float totalSeconds = (min * 60f) + sec;
         float distanceToSet = totalSeconds * speed;
         return distanceToSet;
     }
 
-    void SetZoomSpeed(float planetY, float min, float sec){
+    void SetZoomSpeed(float planetY, float min, float sec)
+    {
         float totalSeconds = (min * 60f) + sec;
-        
-        
-        cameraZoomStart = planetY * (cameraZoomPercentage/ 100);
-        print(cameraZoomStart);
-        
-        
-        float timeToShift = totalSeconds - (totalSeconds * (cameraZoomPercentage/ 100));
-        
 
-        cameraZoomInc = (maxCameraSize - cam.orthographicSize)/(timeToShift / Time.deltaTime);
+
+        cameraZoomStart = planetY * (cameraZoomPercentage / 100);
+        print(cameraZoomStart);
+
+
+        float timeToShift = totalSeconds - (totalSeconds * (cameraZoomPercentage / 100));
+
+
+
+
+
+        print("Time to Shift =: " + timeToShift);
+        print("ortho size = " + cam.orthographicSize);
+        cameraZoomInc = (maxCameraSize - cam.orthographicSize) / (timeToShift / 0.02f);
 
         print(cameraZoomInc);
-    } 
+    }
 }

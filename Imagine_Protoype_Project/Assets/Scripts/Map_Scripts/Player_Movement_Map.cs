@@ -19,6 +19,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
     public bool PC;
 
+
     float dirX, dirY;
 
     GameObject SelectedSite;
@@ -68,6 +69,7 @@ public class Player_Movement_Map : MonoBehaviour {
                         location = SetPointToMove(touch.position);
                         waitingForTouch = true;
                         DropFlag();
+                        location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                     }
                 }
 
@@ -102,6 +104,7 @@ public class Player_Movement_Map : MonoBehaviour {
                     {
                         location = SetPointToMove(Input.mousePosition);
                         DropFlag();
+                        location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                     }
                 }
                 
@@ -155,7 +158,7 @@ public class Player_Movement_Map : MonoBehaviour {
     }
 
     void MoveToPoint(Vector2 location) {
-        transform.position = Vector2.MoveTowards(transform.position, location - new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f), movementSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
     }
 
     void DropFlag() {
@@ -204,5 +207,9 @@ public class Player_Movement_Map : MonoBehaviour {
         Color endCol = new Color(1, 1, 1, 0);
         trail.startColor = col;
         trail.endColor = endCol;
+    }
+
+    public void ResetLocation(){
+        location = transform.position;
     }
 }
