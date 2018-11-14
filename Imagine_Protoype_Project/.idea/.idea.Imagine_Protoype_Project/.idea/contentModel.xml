@@ -15,7 +15,7 @@
             <e p="Sound.cs" t="Include" />
           </e>
         </e>
-        <e p="Move_Cloods.cs" t="Include" />
+        <e p="Move_Clouds.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">

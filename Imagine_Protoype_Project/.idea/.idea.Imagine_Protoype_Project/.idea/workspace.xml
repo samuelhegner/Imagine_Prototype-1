@@ -139,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="695">
-              <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+              <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
               <folding>
                 <marker date="1542194433057" expanded="false" signature="6:78" ph="..." />
                 <marker date="1542194433057" expanded="true" signature="129:2198" ph="{...}" />
@@ -374,12 +374,12 @@
       <workItem from="1542028658758" duration="8729000" />
       <workItem from="1542120048458" duration="242000" />
       <workItem from="1542125626929" duration="1976000" />
-      <workItem from="1542191826741" duration="739000" />
+      <workItem from="1542191826741" duration="1332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67740000" />
+    <option name="totallyTimeSpent" value="68333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,7 +593,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
-          <caret line="108" column="20" lean-forward="true" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
           <folding>
             <marker date="1542194433057" expanded="false" signature="6:78" ph="..." />
             <marker date="1542194433057" expanded="true" signature="129:2198" ph="{...}" />

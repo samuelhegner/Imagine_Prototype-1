@@ -343,16 +343,9 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.13333334
+  - time: 0.15
     functionName: ChangeFooting
     data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.15
-    functionName: PlayImmediately
-    data: Flag_Hit
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
