@@ -29,6 +29,7 @@ public class Select_Site : MonoBehaviour {
     public void SelectTheSite(){
         showing = true;
         popUp.SetActive(showing);
+        player.GetComponent<Player_Movement_Map>().SetActiveSite(transform.parent.gameObject.name);
     }
 
     public void TurnOffPopUp(){
@@ -38,6 +39,9 @@ public class Select_Site : MonoBehaviour {
 
     public void MoveToSite(){
         player.GetComponent<Player_Movement_Map>().location = transform.position;
-        loadScene = true;
+        player.GetComponent<Player_Movement_Map>().DropFlag();
+        if(GetComponent<Site_Info>().sceneName != null){
+            loadScene = true;
+        }
     }
 }

@@ -35,6 +35,9 @@ public class Player_Movement_Map : MonoBehaviour {
 
     TrailRenderer trail;
 
+    GameObject[] sites;
+    GameObject activeSite;
+
 
     float movementSpeed;
 
@@ -50,6 +53,12 @@ public class Player_Movement_Map : MonoBehaviour {
         location = transform.position;
         waitingForTouch = true;
         trail = Basket.GetComponent<TrailRenderer>();
+        sites = GameObject.FindGameObjectsWithTag("Site");
+        print(sites.Length);
+        foreach(GameObject go in sites){
+            print(go.name);
+        }
+        activeSite = new GameObject();
 	}
 	
 	void Update () {
@@ -178,7 +187,7 @@ public class Player_Movement_Map : MonoBehaviour {
         transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
     }
 
-    void DropFlag() {
+    public void DropFlag() {
 
         //TODO: Instantiate flag prefab, flag prefab animates, flag prefab checks ground, flag prefab instantiates ground effect.
 
@@ -237,6 +246,17 @@ public class Player_Movement_Map : MonoBehaviour {
             if(ss != null){
                 ss.TurnOffPopUp();
                 ss.loadScene = false;
+            }
+        }
+    }
+
+
+    public void SetActiveSite(string siteName){
+        for(int i = 0; i < sites.Length; i++){
+            if(sites[i].transform.parent.gameObject.name == siteName){
+                activeSite = sites[i];
+            }else{
+                sites[i].GetComponent<Select_Site>().TurnOffPopUp();
             }
         }
     }
