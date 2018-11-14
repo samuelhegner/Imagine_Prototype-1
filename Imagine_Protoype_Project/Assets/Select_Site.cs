@@ -6,6 +6,8 @@ public class Select_Site : MonoBehaviour {
 
     bool showing;
 
+    public bool loadScene;
+
     public GameObject popUp;
 
     GameObject player;
@@ -13,11 +15,18 @@ public class Select_Site : MonoBehaviour {
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        loadScene = false;
+    }
+
+    void Update(){
+        if(loadScene){
+            if(Vector2.Distance(transform.position, player.transform.position)< 1f){
+                transform.GetComponent<Site_Info>().LoadCorrespondingScene();
+            }
+        }
     }
 
     public void SelectTheSite(){
-        print("test");
-        player.GetComponent<Player_Movement_Map>().location = transform.position;
         showing = true;
         popUp.SetActive(showing);
     }
@@ -25,5 +34,10 @@ public class Select_Site : MonoBehaviour {
     public void TurnOffPopUp(){
         showing = false;
         popUp.SetActive(showing);
+    }
+
+    public void MoveToSite(){
+        player.GetComponent<Player_Movement_Map>().location = transform.position;
+        loadScene = true;
     }
 }

@@ -104,21 +104,24 @@ public class Player_Movement_Map : MonoBehaviour {
                 if (PC) {
                     if (Input.GetMouseButtonUp(0))
                     {
-                        location = SetPointToMove(Input.mousePosition);
-                        DropFlag();
-
                         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-
+                        
                         if(hit.collider != null){
-                            if(hit.collider.gameObject.tag != "Site"){
+                            if(hit.collider.gameObject.tag != "Site" && hit.collider.gameObject.tag != "Button"){
+                                location = SetPointToMove(Input.mousePosition);
+                                DropFlag();
+                                location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                                 TurnOffSites();
+                                print("test");
                             }
                         }else{
+                            location = SetPointToMove(Input.mousePosition);
+                            DropFlag();
+                            location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                             TurnOffSites();
                         }
 
 
-                        location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                     }
                 }
                 
@@ -233,6 +236,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
             if(ss != null){
                 ss.TurnOffPopUp();
+                ss.loadScene = false;
             }
         }
     }
