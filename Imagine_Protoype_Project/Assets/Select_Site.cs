@@ -8,8 +8,17 @@ public class Select_Site : MonoBehaviour {
 
     public GameObject popUp;
 
-    public void SwitchPopUp(){
-        showing = !showing;
+    GameObject player;
+
+    private void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    public void SelectTheSite(){
+        print("test");
+        player.GetComponent<Player_Movement_Map>().location = transform.position;
+        showing = true;
         popUp.SetActive(showing);
     }
 

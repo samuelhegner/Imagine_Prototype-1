@@ -53,18 +53,18 @@ public class Flag_Ground_Checker : MonoBehaviour {
 
           h *= 360;
 
-          Debug.Log(h);
+          //Debug.Log(h);
           
           
           if (h > MinHue && h < MaxHue) {
 
-               Debug.Log("Sploosh");
+               //Debug.Log("Sploosh");
 
                State = Terrain.Water;
 
           } else {
 
-               Debug.Log("Thud");
+               //Debug.Log("Thud");
 
                State = Terrain.Ground;
           }

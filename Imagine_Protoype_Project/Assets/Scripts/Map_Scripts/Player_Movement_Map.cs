@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Player_Movement_Map : MonoBehaviour {
     
@@ -26,7 +28,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
     Touch touch;
 
-    Vector2 location;
+    public Vector2 location;
 
     public GameObject Flag;
     public GameObject Basket;
@@ -65,10 +67,10 @@ public class Player_Movement_Map : MonoBehaviour {
                 {
                     if (Input.touchCount == 0 && waitingForTouch == false)
                     {
-                        print("test");
                         location = SetPointToMove(touch.position);
                         waitingForTouch = true;
                         DropFlag();
+                        TurnOffSites();
                         location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                     }
                 }
@@ -104,6 +106,18 @@ public class Player_Movement_Map : MonoBehaviour {
                     {
                         location = SetPointToMove(Input.mousePosition);
                         DropFlag();
+
+                        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+
+                        if(hit.collider != null){
+                            if(hit.collider.gameObject.tag != "Site"){
+                                TurnOffSites();
+                            }
+                        }else{
+                            TurnOffSites();
+                        }
+
+
                         location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                     }
                 }
@@ -168,13 +182,12 @@ public class Player_Movement_Map : MonoBehaviour {
         Flag.transform.position = location;
         Flag.GetComponent<Animator>().SetTrigger("Drop");
         
-        Debug.Log("Dropping flag");
+        //Debug.Log("Dropping flag");
         
     }
 
     void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current){
         float dist = Vector2.Distance(traget, current);
-        print(dist);
         if(dist < MaxDistance){
             float speedPercent = dist/MaxDistance;
             movementSpeed = MaxSpeed * speedPercent;
@@ -186,7 +199,6 @@ public class Player_Movement_Map : MonoBehaviour {
             movementSpeed = MinSpeed;
         }
 
-        print(movementSpeed);
     }
 
     float Map(float a, float b, float c, float d, float e)
@@ -212,4 +224,17 @@ public class Player_Movement_Map : MonoBehaviour {
     public void ResetLocation(){
         location = transform.position;
     }
+
+    void TurnOffSites(){
+        GameObject[] sites = GameObject.FindGameObjectsWithTag("Site");
+
+        for (int i = 0; i < sites.Length; i ++){
+            Select_Site ss = sites[i].GetComponent<Select_Site>();
+
+            if(ss != null){
+                ss.TurnOffPopUp();
+            }
+        }
+    }
+
 }
