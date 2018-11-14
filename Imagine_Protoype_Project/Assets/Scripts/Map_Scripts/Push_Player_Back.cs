@@ -49,7 +49,7 @@ public class Push_Player_Back : MonoBehaviour
         {
             player.GetComponent<Player_Movement_Map>().enabled = false;
             traget = SetPushBackPoint();
-            transform.GetChild(0).GetComponent<Move_Cloods>().ResetTimer();
+            transform.GetChild(0).GetComponent<Move_Clouds>().ResetTimer();
             StartCoroutine(MoveThePlayerBack());
         }
     }

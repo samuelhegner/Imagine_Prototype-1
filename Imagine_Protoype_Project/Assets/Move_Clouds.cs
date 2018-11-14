@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Move_Cloods : MonoBehaviour {
+public class Move_Clouds : MonoBehaviour {
 
 	float countdown;
 	public float maxCountdown;
