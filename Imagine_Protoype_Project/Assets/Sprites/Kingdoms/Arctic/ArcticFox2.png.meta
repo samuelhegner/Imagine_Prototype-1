@@ -1,11 +1,12 @@
 fileFormatVersion: 2
-guid: acd440d021f0e7b4c93e441d36fc0b5e
+guid: 3a462fc7c36d71e458acea3ab8fe7350
 TextureImporter:
   fileIDToRecycleName:
     21300000: ArcticFox2_0
     21300002: ArcticFox2_1
     21300004: ArcticFox2_2
     21300006: ArcticFox2_3
+    21300008: ArcticFox2_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -135,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8735dc1cae9a6c41a62b1383b2eebf8
+      spriteID: c221dcd723598bf4e85f8747bc429571
       vertices: []
       indices: 
       edges: []
@@ -146,7 +147,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 8
-        width: 97
+        width: 98
         height: 66
       alignment: 9
       pivot: {x: 0.92, y: 0.48}
@@ -155,7 +156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d65344f9173a8f446856ffca8876d42e
+      spriteID: 19f529b02360f4045a17541b9ceadc6f
       vertices: []
       indices: 
       edges: []
@@ -164,9 +165,9 @@ TextureImporter:
       name: ArcticFox2_2
       rect:
         serializedVersion: 2
-        x: 146
+        x: 138
         y: 6
-        width: 66
+        width: 74
         height: 68
       alignment: 9
       pivot: {x: 0.8, y: 0.48}
@@ -175,13 +176,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9858a51757cff5408b3c4fcfad4a367
+      spriteID: ab02517e9808bb34baa084454e8e269a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: ArcticFox2_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 17
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406b4f89083de794d821f14b13ec2e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArcticFox2_4
       rect:
         serializedVersion: 2
         x: 220
@@ -195,7 +216,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e86cd8465f434f844a954d5041f5b608
+      spriteID: 5cb592e34b5666642b6cfa554d454172
       vertices: []
       indices: 
       edges: []
@@ -203,7 +224,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e8f2ea376f890444285e2b7306fa6a2d
+    spriteID: ac7b7921f2b75ce4aa4ae07a4a32be3f
     vertices: []
     indices: 
     edges: []
