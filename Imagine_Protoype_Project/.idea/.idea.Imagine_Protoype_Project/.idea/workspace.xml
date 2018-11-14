@@ -75,14 +75,54 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1376868410">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2844">
+            <state relative-caret-position="2055">
               <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <marker date="1542193084539" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542193084539" expanded="true" signature="124:977" ph="{...}" />
+                <marker date="1542193084539" expanded="true" signature="287:455" ph="{...}" />
+                <marker date="1542193084539" expanded="true" signature="474:975" ph="{...}" />
+                <marker date="1542193084539" expanded="true" signature="695:872" ph="{...}" />
+                <marker date="1542193084539" expanded="true" signature="744:784" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,17 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="300">
               <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -108,48 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <marker date="1542191874997" expanded="false" signature="6:156" ph="..." />
-                <marker date="1542191874997" expanded="true" signature="205:1389" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="224:348" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="284:344" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="369:547" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="567:824" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="888:1006" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="890:983" ph="/* Debug.Log(&quot;Level Loaded: &quot; + scene.name); ... */" />
-                <marker date="1542191874997" expanded="true" signature="1044:1382" ph="{...}" />
-                <marker date="1542191874997" expanded="true" signature="1227:1302" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-              <folding>
-                <marker date="1542194433057" expanded="false" signature="6:78" ph="..." />
-                <marker date="1542194433057" expanded="true" signature="129:2198" ph="{...}" />
-                <marker date="1542194433057" expanded="true" signature="499:553" ph="{...}" />
-                <marker date="1542194433057" expanded="true" signature="617:1365" ph="{...}" />
-                <marker date="1542194433057" expanded="true" signature="1083:1174" ph="{...}" />
-                <marker date="1542194433057" expanded="true" signature="1281:1355" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
-                <marker date="1542194433057" expanded="true" signature="1402:2192" ph="{...}" />
-                <marker date="1542194433057" expanded="true" signature="1614:2182" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -157,17 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="165">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -178,21 +160,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Wind_Tree_Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu_Scripts/Scene_Change_Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -243,7 +227,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="95" />
-    <option name="y" value="-19" />
+    <option name="y" value="-20" />
     <option name="width" value="1485" />
     <option name="height" value="825" />
   </component>
@@ -253,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -280,6 +263,7 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,11 +338,12 @@
       <workItem from="1542120048458" duration="242000" />
       <workItem from="1542125626929" duration="1976000" />
       <workItem from="1542191826741" duration="1332000" />
+      <workItem from="1542197509594" duration="700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68333000" />
+    <option name="totallyTimeSpent" value="69033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,10 +355,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11767838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119463086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,103 +470,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Map_Layer_manager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/layerSortOnY.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Star_EnableParticles.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Star_Collision.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2844">
+        <state relative-caret-position="2055">
           <caret line="214" column="1" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="300">
           <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Journey_Audio_Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Cut_Rope.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="254" column="29" selection-start-line="254" selection-start-column="29" selection-end-line="254" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="945">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <marker date="1542191874997" expanded="false" signature="6:156" ph="..." />
-            <marker date="1542191874997" expanded="true" signature="205:1389" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="224:348" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="284:344" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="369:547" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="567:824" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="888:1006" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="890:983" ph="/* Debug.Log(&quot;Level Loaded: &quot; + scene.name); ... */" />
-            <marker date="1542191874997" expanded="true" signature="1044:1382" ph="{...}" />
-            <marker date="1542191874997" expanded="true" signature="1227:1302" ph="{...}" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/General_Scripts/Pinch_Zoom_Camera.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="108" column="20" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="242" lean-forward="true" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <marker date="1542194433057" expanded="false" signature="6:78" ph="..." />
-            <marker date="1542194433057" expanded="true" signature="129:2198" ph="{...}" />
-            <marker date="1542194433057" expanded="true" signature="499:553" ph="{...}" />
-            <marker date="1542194433057" expanded="true" signature="617:1365" ph="{...}" />
-            <marker date="1542194433057" expanded="true" signature="1083:1174" ph="{...}" />
-            <marker date="1542194433057" expanded="true" signature="1281:1355" ph="/* texture.ReadPixels(RectReadPicture, 0, 0); ... */" />
-            <marker date="1542194433057" expanded="true" signature="1402:2192" ph="{...}" />
-            <marker date="1542194433057" expanded="true" signature="1614:2182" ph="{...}" />
+            <marker date="1542193084539" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542193084539" expanded="true" signature="124:977" ph="{...}" />
+            <marker date="1542193084539" expanded="true" signature="287:455" ph="{...}" />
+            <marker date="1542193084539" expanded="true" signature="474:975" ph="{...}" />
+            <marker date="1542193084539" expanded="true" signature="695:872" ph="{...}" />
+            <marker date="1542193084539" expanded="true" signature="744:784" ph="{...}" />
           </folding>
         </state>
       </provider>
