@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1242,6 +1242,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &941102830
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6.653767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.6046692
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616631308831506, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992639339239796, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+      propertyPath: m_Name
+      value: Arctic Fox
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c779058c49ede4041b99ff57958743c1, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &947226795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2151,6 +2197,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1466459672
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125596771199162, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657760699968004, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+      propertyPath: m_Name
+      value: 'Polar Bear '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86a3e90902ce97147a104527d1683247, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1530549119
 GameObject:
   m_ObjectHideFlags: 0
