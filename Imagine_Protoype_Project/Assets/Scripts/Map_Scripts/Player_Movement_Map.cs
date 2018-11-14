@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Player_Movement_Map : MonoBehaviour {
     
@@ -26,12 +28,15 @@ public class Player_Movement_Map : MonoBehaviour {
 
     Touch touch;
 
-    Vector2 location;
+    public Vector2 location;
 
     public GameObject Flag;
     public GameObject Basket;
 
     TrailRenderer trail;
+
+    GameObject[] sites;
+    GameObject activeSite;
 
 
     float movementSpeed;
@@ -48,6 +53,12 @@ public class Player_Movement_Map : MonoBehaviour {
         location = transform.position;
         waitingForTouch = true;
         trail = Basket.GetComponent<TrailRenderer>();
+        sites = GameObject.FindGameObjectsWithTag("Site");
+        print(sites.Length);
+        foreach(GameObject go in sites){
+            print(go.name);
+        }
+        activeSite = new GameObject();
 	}
 	
 	void Update () {
@@ -65,10 +76,10 @@ public class Player_Movement_Map : MonoBehaviour {
                 {
                     if (Input.touchCount == 0 && waitingForTouch == false)
                     {
-                        print("test");
                         location = SetPointToMove(touch.position);
                         waitingForTouch = true;
                         DropFlag();
+                        TurnOffSites();
                         location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
                     }
                 }
@@ -102,9 +113,24 @@ public class Player_Movement_Map : MonoBehaviour {
                 if (PC) {
                     if (Input.GetMouseButtonUp(0))
                     {
-                        location = SetPointToMove(Input.mousePosition);
-                        DropFlag();
-                        location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+                        
+                        if(hit.collider != null){
+                            if(hit.collider.gameObject.tag != "Site" && hit.collider.gameObject.tag != "Button"){
+                                location = SetPointToMove(Input.mousePosition);
+                                DropFlag();
+                                location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                                TurnOffSites();
+                                print("test");
+                            }
+                        }else{
+                            location = SetPointToMove(Input.mousePosition);
+                            DropFlag();
+                            location -= new Vector2(Basket.transform.localPosition.x, Basket.transform.localPosition.y - 2f);
+                            TurnOffSites();
+                        }
+
+
                     }
                 }
                 
@@ -161,20 +187,19 @@ public class Player_Movement_Map : MonoBehaviour {
         transform.position = Vector2.MoveTowards(transform.position, location, movementSpeed * Time.deltaTime);
     }
 
-    void DropFlag() {
+    public void DropFlag() {
 
         //TODO: Instantiate flag prefab, flag prefab animates, flag prefab checks ground, flag prefab instantiates ground effect.
 
         Flag.transform.position = location;
         Flag.GetComponent<Animator>().SetTrigger("Drop");
         
-        Debug.Log("Dropping flag");
+        //Debug.Log("Dropping flag");
         
     }
 
     void SetMoveSpeed(float min, float max, Vector2 traget, Vector2 current){
         float dist = Vector2.Distance(traget, current);
-        print(dist);
         if(dist < MaxDistance){
             float speedPercent = dist/MaxDistance;
             movementSpeed = MaxSpeed * speedPercent;
@@ -186,7 +211,6 @@ public class Player_Movement_Map : MonoBehaviour {
             movementSpeed = MinSpeed;
         }
 
-        print(movementSpeed);
     }
 
     float Map(float a, float b, float c, float d, float e)
@@ -212,4 +236,29 @@ public class Player_Movement_Map : MonoBehaviour {
     public void ResetLocation(){
         location = transform.position;
     }
+
+    void TurnOffSites(){
+        GameObject[] sites = GameObject.FindGameObjectsWithTag("Site");
+
+        for (int i = 0; i < sites.Length; i ++){
+            Select_Site ss = sites[i].GetComponent<Select_Site>();
+
+            if(ss != null){
+                ss.TurnOffPopUp();
+                ss.loadScene = false;
+            }
+        }
+    }
+
+
+    public void SetActiveSite(string siteName){
+        for(int i = 0; i < sites.Length; i++){
+            if(sites[i].transform.parent.gameObject.name == siteName){
+                activeSite = sites[i];
+            }else{
+                sites[i].GetComponent<Select_Site>().TurnOffPopUp();
+            }
+        }
+    }
+
 }

@@ -16,11 +16,19 @@ public class Site_Info : MonoBehaviour {
 
     public string sceneName;
 
+    bool loadedOnce;
+
+    void Start(){
+        loadedOnce = false;
+    }
+
 
     public void LoadCorrespondingScene() {
        // SceneManager.LoadScene(sceneName);
-       
-       Game_Manager.Instance.LoadScene(sceneName);
+       if(loadedOnce == false){
+            Game_Manager.Instance.LoadScene(sceneName);
+            loadedOnce = true;
+       }
        
     }
 }

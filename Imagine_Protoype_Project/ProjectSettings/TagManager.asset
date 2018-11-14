@@ -15,6 +15,7 @@ TagManager:
   - Hook
   - Planet
   - Point
+  - Button
   layers:
   - Default
   - TransparentFX
