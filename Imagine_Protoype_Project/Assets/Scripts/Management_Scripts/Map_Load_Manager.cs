@@ -12,7 +12,7 @@ public class Map_Load_Manager : MonoBehaviour {
 	void Start() {
 
 		if (SceneManager.GetActiveScene().name == "Map_Scene") {
-			gameObject.hideFlags = HideFlags.DontSaveInBuild;
+			//gameObject.hideFlags = HideFlags.DontSaveInBuild;
 		}
 
 	}

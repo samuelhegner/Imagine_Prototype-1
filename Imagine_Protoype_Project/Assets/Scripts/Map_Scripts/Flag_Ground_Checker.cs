@@ -96,6 +96,7 @@ public class Flag_Ground_Checker : MonoBehaviour {
 
 
                     GroundObject.SetActive(true);
+                    GetComponent<AudioManager>().Play("Flag_Hit");
                     
                     
                     break;
@@ -104,6 +105,8 @@ public class Flag_Ground_Checker : MonoBehaviour {
                     
                     
                     WaterObject.SetActive(true);
+                    GetComponent<AudioManager>().Play("Flag_Splash");
+                    
 
                     break;
                

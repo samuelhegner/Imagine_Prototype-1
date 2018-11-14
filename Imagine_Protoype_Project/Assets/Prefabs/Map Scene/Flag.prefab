@@ -408,6 +408,22 @@ MonoBehaviour:
     clips:
     - {fileID: 8300000, guid: d03f568f1034dd3409a2dc4bd2fdcea9, type: 3}
     - {fileID: 8300000, guid: 8172ec91d9fc15142bb0427227170cc8, type: 3}
+    - {fileID: 8300000, guid: 7bb01a7e2853479408219024d015a809, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  - name: Flag_Splash
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: a0a17f7471d62c54b9496afd656c1f46, type: 3}
+    - {fileID: 8300000, guid: b4cdb7c62f246ff48aa334ed396d5203, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0
