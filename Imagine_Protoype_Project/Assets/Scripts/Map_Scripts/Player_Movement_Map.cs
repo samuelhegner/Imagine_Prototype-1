@@ -54,10 +54,6 @@ public class Player_Movement_Map : MonoBehaviour {
         waitingForTouch = true;
         trail = Basket.GetComponent<TrailRenderer>();
         sites = GameObject.FindGameObjectsWithTag("Site");
-        print(sites.Length);
-        foreach(GameObject go in sites){
-            print(go.name);
-        }
         activeSite = new GameObject();
 	}
 	
@@ -213,20 +209,14 @@ public class Player_Movement_Map : MonoBehaviour {
 
     }
 
-    float Map(float a, float b, float c, float d, float e)
-    {
-        float cb = c - b;
-        float de = e - d;
-        float howFar = (a - b) / cb;
-        return d + howFar * de;
-    }
+
 
     void AdjustTrail(){
         float time;
-        time = Map(movementSpeed, MinSpeed, MaxSpeed, 0, 5);
+        time = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0, 5);
         trail.time = time;
         float a;
-        a = Map(movementSpeed, MinSpeed, MaxSpeed, 0f, 1f);
+        a = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0f, 1f);
         Color col = new Color(1, 1, 1, a);
         Color endCol = new Color(1, 1, 1, 0);
         trail.startColor = col;

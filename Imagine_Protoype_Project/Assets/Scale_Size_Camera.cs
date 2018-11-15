@@ -23,18 +23,10 @@ public class Scale_Size_Camera : MonoBehaviour {
 		minCamSize = pinch.minZoom;
 		maxCamSize = pinch.maxZoom;
 
-		float scale = Map(Camera.main.orthographicSize, minCamSize, maxCamSize, minScale, maxScale);
+		float scale = Game_Manager.Map(Camera.main.orthographicSize, minCamSize, maxCamSize, minScale, maxScale);
 
 		newScale = new Vector3( scale, scale, 0);
 
 		transform.localScale = newScale;
 	}
-
-	float Map(float a, float b, float c, float d, float e)
-    {
-        float cb = c - b;
-        float de = e - d;
-        float howFar = (a - b) / cb;
-        return d + howFar * de;
-    }
 }

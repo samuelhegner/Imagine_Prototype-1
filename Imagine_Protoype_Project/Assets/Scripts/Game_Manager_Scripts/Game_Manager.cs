@@ -99,4 +99,12 @@ public class Game_Manager : MonoBehaviour
 
         return (curvedPoints.ToArray());
     }
+
+    public static float Map(float a, float b, float c, float d, float e)
+    {
+        float cb = c - b;
+        float de = e - d;
+        float howFar = (a - b) / cb;
+        return d + howFar * de;
+    }
 }
