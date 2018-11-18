@@ -106,5 +106,9 @@ public class Game_Manager : MonoBehaviour
         float de = e - d;
         float howFar = (a - b) / cb;
         return d + howFar * de;
+        
+        
+        //wut?
+        
     }
 }

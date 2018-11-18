@@ -219,6 +219,9 @@ public class Player_Movement_Map : MonoBehaviour {
         a = Game_Manager.Map(movementSpeed, MinSpeed, MaxSpeed, 0f, 1f);
         Color col = new Color(1, 1, 1, a);
         Color endCol = new Color(1, 1, 1, 0);
+        
+        //maybe add colours as public variables and have them settable in editor to any colour
+        
         trail.startColor = col;
         trail.endColor = endCol;
     }
