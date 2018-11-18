@@ -173,7 +173,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player_move_flap_volume_speed.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="player_move_flap_volume_speed.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/player_move_flap_volume_speed.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -183,6 +183,36 @@
                 <marker date="1542573203439" expanded="true" signature="174:538" ph="{...}" />
                 <marker date="1542573203439" expanded="true" signature="292:344" ph="{...}" />
                 <marker date="1542573203439" expanded="true" signature="399:536" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forest_Touch_Manager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+              <folding>
+                <marker date="1542573646035" expanded="false" signature="6:61" ph="..." />
+                <marker date="1542573646035" expanded="true" signature="114:5292" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="574:738" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="807:5284" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="829:3104" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="934:3090" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="1006:2171" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="1506:1867" ph="/* AudioManager.Master.Play(&quot;Wind&quot;); ... */" />
+                <marker date="1542573646035" expanded="true" signature="1895:2087" ph="/* clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject; ... */" />
+                <marker date="1542573646035" expanded="true" signature="2226:2710" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="2353:2453" ph="/* float rayDistance; ... */" />
+                <marker date="1542573646035" expanded="true" signature="2765:3069" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="3125:4208" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="3171:3872" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="3227:3654" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="3909:4196" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="4275:5173" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="4382:5159" ph="{...}" />
+                <marker date="1542573646035" expanded="true" signature="4592:5142" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -233,7 +263,6 @@
         <option value="$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs" />
         <option value="$PROJECT_DIR$/Assets/Map_Load_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Transitioner_Script.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu_Scripts/Scene_Change_Menu.cs" />
@@ -257,6 +286,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game_Manager_Scripts/Game_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" />
         <option value="$PROJECT_DIR$/Assets/player_move_flap_volume_speed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" />
       </list>
     </option>
   </component>
@@ -382,12 +412,12 @@
       <workItem from="1542197509594" duration="700000" />
       <workItem from="1542458506938" duration="720000" />
       <workItem from="1542465213957" duration="1052000" />
-      <workItem from="1542569597288" duration="1808000" />
+      <workItem from="1542569597288" duration="2250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72613000" />
+    <option name="totallyTimeSpent" value="73055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,13 +564,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Vertical_Resolution_Scaler.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Map_Load_Manager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Transitioner_Script.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -700,6 +723,34 @@
             <marker date="1542573203439" expanded="true" signature="174:538" ph="{...}" />
             <marker date="1542573203439" expanded="true" signature="292:344" ph="{...}" />
             <marker date="1542573203439" expanded="true" signature="399:536" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+          <folding>
+            <marker date="1542573646035" expanded="false" signature="6:61" ph="..." />
+            <marker date="1542573646035" expanded="true" signature="114:5292" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="574:738" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="807:5284" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="829:3104" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="934:3090" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="1006:2171" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="1506:1867" ph="/* AudioManager.Master.Play(&quot;Wind&quot;); ... */" />
+            <marker date="1542573646035" expanded="true" signature="1895:2087" ph="/* clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject; ... */" />
+            <marker date="1542573646035" expanded="true" signature="2226:2710" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="2353:2453" ph="/* float rayDistance; ... */" />
+            <marker date="1542573646035" expanded="true" signature="2765:3069" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="3125:4208" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="3171:3872" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="3227:3654" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="3909:4196" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="4275:5173" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="4382:5159" ph="{...}" />
+            <marker date="1542573646035" expanded="true" signature="4592:5142" ph="{...}" />
           </folding>
         </state>
       </provider>
