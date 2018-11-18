@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Move_Clouds.cs" t="Include" />
+        <e p="player_move_flap_volume_speed.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="EZ Camera Shake" t="Include">
             <e p="Demo" t="Include">

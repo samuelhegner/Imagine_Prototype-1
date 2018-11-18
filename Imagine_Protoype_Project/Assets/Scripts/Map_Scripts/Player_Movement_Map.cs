@@ -39,7 +39,7 @@ public class Player_Movement_Map : MonoBehaviour {
     GameObject activeSite;
 
 
-    float movementSpeed;
+    public float movementSpeed;
 
     public float MaxSpeed;
     public float MinSpeed;
