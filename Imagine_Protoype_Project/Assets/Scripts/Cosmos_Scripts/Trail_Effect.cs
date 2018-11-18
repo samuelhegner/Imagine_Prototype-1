@@ -35,17 +35,46 @@ public class Trail_Effect : MonoBehaviour {
 		em.rateOverTime = emission;
 	}
 
-	void OnTriggerStay2D(Collider2D other){
-		if(other.tag == "Trail"){
+	void OnTriggerStay2D(Collider2D other) {
+		if (other.tag == "Trail") {
 			GetComponent<Player_Movement_Cosmos>().trail = true;
-			trail = true;
+			trail                                        = true;
+
+
+
+			//GetComponent<AudioManager>().Stop("Flame_Mid");
+			//	GetComponent<AudioManager>().Play("Flame_High");
+
+
+
 		}
 	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+
+
+			if (other.CompareTag("Trail")) {
+
+				GetComponent<AudioManager>().Stop("Flame_Mid", true, 0.1f);
+
+				GetComponent<AudioManager>().Play("Flame_High", true, 0.1f);
+				
+			}
+
+
+		}
+
+	
 
 	void OnTriggerExit2D(Collider2D other){
 		if(other.tag == "Trail"){
 			GetComponent<Player_Movement_Cosmos>().trail = false;
 			trail = false;
+
+			GetComponent<AudioManager>().Stop("Flame_High", true, 0.1f);
+			GetComponent<AudioManager>().Play("Flame_Mid", true, 0.1f);
+			
+			
 		}
 	}
 }

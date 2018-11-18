@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 212992215109323886}
   - component: {fileID: 114324161269880634}
   - component: {fileID: 61618303378611138}
+  - component: {fileID: 114856225700743590}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Untagged
@@ -109,6 +110,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8371e747f6e5e7a4096cb17a04618f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+--- !u!114 &114856225700743590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1879780520408064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Activate_Journey
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: 2a46ef4d6f7689043a054c28d1ed569f, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  master: 0
+  DontDestroyOnLoad: 0
 --- !u!114 &114880394949223010
 MonoBehaviour:
   m_ObjectHideFlags: 1

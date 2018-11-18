@@ -5187,7 +5187,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 859525657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 701, y: 121, z: 10}
+  m_LocalPosition: {x: 444, y: -166, z: 10}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children:
   - {fileID: 257609739}
@@ -7088,6 +7088,7 @@ GameObject:
   - component: {fileID: 1429681287}
   - component: {fileID: 1429681289}
   - component: {fileID: 1429681288}
+  - component: {fileID: 1429681290}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11794,6 +11795,62 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &1429681290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429681281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Flame_Idle
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: f759488c341b0004b9799c40898ff6ce, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  - name: Flame_Mid
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: 817662b46c45df34a8f1d6cf529e5598, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  - name: Flame_High
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: b9a9b55c54a928f4bb9d65c539b15545, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  master: 0
+  DontDestroyOnLoad: 0
 --- !u!1 &1458023552
 GameObject:
   m_ObjectHideFlags: 0
@@ -12479,6 +12536,7 @@ GameObject:
   - component: {fileID: 1460026552}
   - component: {fileID: 1460026553}
   - component: {fileID: 1460026554}
+  - component: {fileID: 1460026555}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12591,6 +12649,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cutter: {fileID: 367183219}
   start: 0
+--- !u!114 &1460026555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1460026548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6668fa9c07509b641b9ed197e8d325e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Flame_Idle
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: f759488c341b0004b9799c40898ff6ce, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    mute: 0
+    playOnAwake: 1
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  - name: Flame_Switch
+    audioMixerGroup: {fileID: 243862759904171356, guid: f53abdbdf703fff48a03ac380608cf1c,
+      type: 2}
+    clips:
+    - {fileID: 8300000, guid: 672ca8e5fab7a984680371fa72685ad6, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    mute: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+    FadingIn: 0
+    FadingOut: 0
+  master: 0
+  DontDestroyOnLoad: 0
 --- !u!1001 &1461610471
 Prefab:
   m_ObjectHideFlags: 0
@@ -13996,6 +14096,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114324161269880634, guid: 0c1c8341248f73142a5587bf79bd5b39,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1429681281}
     - target: {fileID: 114880394949223010, guid: 0c1c8341248f73142a5587bf79bd5b39,
         type: 2}
       propertyPath: BalloonPoint

@@ -89,6 +89,12 @@ public class AudioManager : MonoBehaviour {
 		
 	}
 
+	public void StopImmediately(string name) {
+
+		Stop(name);
+		
+	}
+
 
 	IEnumerator FadeIn(Sound s, float fadeTime, float defaultVolume) {
 

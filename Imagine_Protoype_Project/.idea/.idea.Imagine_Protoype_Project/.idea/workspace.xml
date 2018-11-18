@@ -188,7 +188,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Forest_Touch_Manager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Forest_Touch_Manager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1734">
@@ -218,9 +218,159 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activate_Journey.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player_Movement_Cosmos.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542149788835" expanded="false" signature="6:113" ph="..." />
+                <marker date="1542149788835" expanded="true" signature="166:4836" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1017:1315" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1378:3960" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1458:3954" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1488:2616" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1597:1879" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1672:1776" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1900:2204" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="1986:2090" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="2633:3750" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="2683:2982" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="2758:2862" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="3003:3324" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="3089:3193" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="3861:3944" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="3994:4072" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="4151:4293" ph="{...}" />
+                <marker date="1542149788835" expanded="true" signature="4353:4834" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawRay.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DrawRay.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+              <folding>
+                <marker date="1540467346418" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540467346418" expanded="true" signature="117:1715" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="406:744" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="461:576" ph="/* Material whiteDiffuseMat = new Material(Shader.Find(&quot;Unlit/Texture&quot;)); ... */" />
+                <marker date="1540467346418" expanded="true" signature="804:1713" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="916:1007" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="1032:1700" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="1105:1508" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="1312:1494" ph="{...}" />
+                <marker date="1540467346418" expanded="true" signature="1542:1690" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <marker date="1542575728994" expanded="false" signature="6:92" ph="..." />
+                <marker date="1542575728994" expanded="true" signature="137:3821" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="305:900" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="322:518" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="348:375" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="463:514" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="549:897" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="866:893" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1004:1296" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1086:1157" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1228:1291" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1340:1362" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1406:1428" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1497:1841" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1518:1544" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1568:1596" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1687:1777" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="1941:2432" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2023:2095" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2127:2338" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2144:2210" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2502:2881" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2524:2550" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2596:2625" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2706:2796" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2915:3256" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="2997:3069" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="3097:3158" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="3324:3579" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="3406:3478" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="3541:3573" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="3626:3815" ph="{...}" />
+                <marker date="1542575728994" expanded="true" signature="3847:3902" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateTrail.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1542149788815" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542149788815" expanded="true" signature="120:2072" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="393:2070" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="550:1012" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="674:754" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="754:1002" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="1143:1286" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="1346:1743" ph="{...}" />
+                <marker date="1542149788815" expanded="true" signature="1423:1733" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trail_Effect.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Effect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+              <folding>
+                <marker date="1542576177026" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542576177026" expanded="true" signature="122:1479" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="298:385" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="401:651" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="422:511" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="454:507" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="534:617" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="555:613" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="693:957" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="723:954" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="843:947" ph="/* GetComponent&lt;AudioManager&gt;().Stop(&quot;Flame_Mid&quot;); ... */" />
+                <marker date="1542576177026" expanded="true" signature="1000:1186" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="1038:1180" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="1230:1477" ph="{...}" />
+                <marker date="1542576177026" expanded="true" signature="1258:1474" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activate_Journey.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <marker date="1542576271485" expanded="false" signature="6:78" ph="..." />
+                <marker date="1542576271485" expanded="true" signature="126:956" ph="{...}" />
+                <marker date="1542576271485" expanded="true" signature="266:403" ph="{...}" />
+                <marker date="1542576271485" expanded="true" signature="427:666" ph="{...}" />
+                <marker date="1542576271485" expanded="true" signature="700:954" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -231,13 +381,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Branch_Wobbler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Flag_Ground_Checker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Effect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Map_Raycast_Animation_Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DisperseCloud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/PCSlider_Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DrawRay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management_Scripts/Map_Load_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/player_move_flap_volume_speed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -287,6 +441,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Player_Movement_Map.cs" />
         <option value="$PROJECT_DIR$/Assets/player_move_flap_volume_speed.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Forest_Minigame_Scripts/Forest_Touch_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Effect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs" />
       </list>
     </option>
   </component>
@@ -412,12 +569,12 @@
       <workItem from="1542197509594" duration="700000" />
       <workItem from="1542458506938" duration="720000" />
       <workItem from="1542465213957" duration="1052000" />
-      <workItem from="1542569597288" duration="2250000" />
+      <workItem from="1542569597288" duration="3932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73055000" />
+    <option name="totallyTimeSpent" value="74737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +709,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542576271485" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542576271485" expanded="true" signature="126:956" ph="{...}" />
+            <marker date="1542576271485" expanded="true" signature="266:403" ph="{...}" />
+            <marker date="1542576271485" expanded="true" signature="427:666" ph="{...}" />
+            <marker date="1542576271485" expanded="true" signature="700:954" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Forest_Touch_Manager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sound.cs" />
@@ -579,13 +746,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Audio/Audio_Scripts/Sound.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Map_Scripts/Site_Info.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -636,9 +796,6 @@
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Beam_Detection.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Set_Cloud_Type.cs" />
@@ -751,6 +908,149 @@
             <marker date="1542573646035" expanded="true" signature="4275:5173" ph="{...}" />
             <marker date="1542573646035" expanded="true" signature="4382:5159" ph="{...}" />
             <marker date="1542573646035" expanded="true" signature="4592:5142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/CreateTrail.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542149788815" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542149788815" expanded="true" signature="120:2072" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="393:2070" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="550:1012" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="674:754" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="754:1002" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="1143:1286" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="1346:1743" ph="{...}" />
+            <marker date="1542149788815" expanded="true" signature="1423:1733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Player_Movement_Cosmos.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1542149788835" expanded="false" signature="6:113" ph="..." />
+            <marker date="1542149788835" expanded="true" signature="166:4836" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1017:1315" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1378:3960" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1458:3954" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1488:2616" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1597:1879" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1672:1776" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1900:2204" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="1986:2090" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="2633:3750" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="2683:2982" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="2758:2862" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="3003:3324" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="3089:3193" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="3861:3944" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="3994:4072" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="4151:4293" ph="{...}" />
+            <marker date="1542149788835" expanded="true" signature="4353:4834" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/DrawRay.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <marker date="1540467346418" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540467346418" expanded="true" signature="117:1715" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="406:744" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="461:576" ph="/* Material whiteDiffuseMat = new Material(Shader.Find(&quot;Unlit/Texture&quot;)); ... */" />
+            <marker date="1540467346418" expanded="true" signature="804:1713" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="916:1007" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="1032:1700" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="1105:1508" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="1312:1494" ph="{...}" />
+            <marker date="1540467346418" expanded="true" signature="1542:1690" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Audio_Scripts/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <marker date="1542575728994" expanded="false" signature="6:92" ph="..." />
+            <marker date="1542575728994" expanded="true" signature="137:3821" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="305:900" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="322:518" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="348:375" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="463:514" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="549:897" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="866:893" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1004:1296" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1086:1157" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1228:1291" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1340:1362" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1406:1428" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1497:1841" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1518:1544" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1568:1596" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1687:1777" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="1941:2432" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2023:2095" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2127:2338" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2144:2210" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2502:2881" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2524:2550" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2596:2625" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2706:2796" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2915:3256" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="2997:3069" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="3097:3158" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="3324:3579" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="3406:3478" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="3541:3573" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="3626:3815" ph="{...}" />
+            <marker date="1542575728994" expanded="true" signature="3847:3902" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Trail_Effect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <folding>
+            <marker date="1542576177026" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542576177026" expanded="true" signature="122:1479" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="298:385" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="401:651" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="422:511" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="454:507" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="534:617" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="555:613" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="693:957" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="723:954" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="843:947" ph="/* GetComponent&lt;AudioManager&gt;().Stop(&quot;Flame_Mid&quot;); ... */" />
+            <marker date="1542576177026" expanded="true" signature="1000:1186" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="1038:1180" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="1230:1477" ph="{...}" />
+            <marker date="1542576177026" expanded="true" signature="1258:1474" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cosmos_Scripts/Activate_Journey.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <marker date="1542576271485" expanded="false" signature="6:78" ph="..." />
+            <marker date="1542576271485" expanded="true" signature="126:956" ph="{...}" />
+            <marker date="1542576271485" expanded="true" signature="266:403" ph="{...}" />
+            <marker date="1542576271485" expanded="true" signature="427:666" ph="{...}" />
+            <marker date="1542576271485" expanded="true" signature="700:954" ph="{...}" />
           </folding>
         </state>
       </provider>
