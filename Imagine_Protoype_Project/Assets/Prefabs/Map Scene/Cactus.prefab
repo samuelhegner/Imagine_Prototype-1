@@ -28,7 +28,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1450322661080004
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
@@ -99,12 +99,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1450322661080004}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.026, y: -0.265, z: -0.56431496}
-  m_LocalScale: {x: 0.5090389, y: 0.31504312, z: 0.82821995}
+  m_LocalRotation: {x: -0, y: -0, z: 0.001439698, w: 0.999999}
+  m_LocalPosition: {x: 0.026762962, y: -0.26492405, z: -0.56431496}
+  m_LocalScale: {x: 0.5090388, y: 0.31504312, z: 0.82821995}
   m_Children: []
-  m_Father: {fileID: 4857203937516700}
-  m_RootOrder: 2
+  m_Father: {fileID: 4895139096333510}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4197820954094922
 Transform:
@@ -144,9 +144,8 @@ Transform:
   m_Children:
   - {fileID: 4655678882877970}
   - {fileID: 4197820954094922}
-  - {fileID: 4151289986135162}
   m_Father: {fileID: 4895139096333510}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4895139096333510
 Transform:
@@ -155,9 +154,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1254377321516318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.43, y: -72.1, z: 0.56431496}
+  m_LocalPosition: {x: -5.6, y: 12.5, z: 0.56431496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4151289986135162}
   - {fileID: 4857203937516700}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -186,7 +186,7 @@ Animator:
   m_GameObject: {fileID: 1982853699997282}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cbe4527835bad4d4a9074fc667922dab, type: 2}
+  m_Controller: {fileID: 9100000, guid: b630bdff272d9dc48abe916898f019d6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
