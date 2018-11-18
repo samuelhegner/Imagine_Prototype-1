@@ -1024,6 +1024,26 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 988977148}
+    - target: {fileID: 61669721171149264, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61669721171149264, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61669721171149264, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 61669721171149264, guid: 29cabb6a9893047e4be2517ac91a4426,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29cabb6a9893047e4be2517ac91a4426, type: 2}
   m_IsPrefabAsset: 0
