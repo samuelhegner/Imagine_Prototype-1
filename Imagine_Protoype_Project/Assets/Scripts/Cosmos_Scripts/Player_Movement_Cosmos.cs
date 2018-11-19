@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player_Movement_Cosmos : MonoBehaviour
 {
-    public bool PC;
+   // public bool PC;
     public bool JourneyStarted;
 
     public bool trail;
@@ -67,7 +67,7 @@ public class Player_Movement_Cosmos : MonoBehaviour
 
         if (JourneyStarted)
         {
-            if (PC)
+            if (Game_Manager.isPC)
             {
                 float hAxis = Input.GetAxis("Horizontal");
                 if (trail == false)

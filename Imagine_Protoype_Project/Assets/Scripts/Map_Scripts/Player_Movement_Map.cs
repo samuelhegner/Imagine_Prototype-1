@@ -19,7 +19,7 @@ public class Player_Movement_Map : MonoBehaviour {
     Rigidbody2D rb;
 
 
-    public bool PC;
+  //  public bool PC;
 
 
     float dirX, dirY;
@@ -117,7 +117,7 @@ public class Player_Movement_Map : MonoBehaviour {
 
                 //For PC input
 
-                if (PC) {
+                if (Game_Manager.isPC) {
                     if (Input.GetMouseButtonUp(0))
                     {
                         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);

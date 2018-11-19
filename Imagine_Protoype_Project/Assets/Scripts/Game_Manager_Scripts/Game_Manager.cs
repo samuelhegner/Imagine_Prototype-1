@@ -10,6 +10,8 @@ public class Game_Manager : MonoBehaviour
 
     public static Game_Manager Instance;
 
+    public static bool isPC;
+
 
     public GameObject TransitionTemplate;
  
@@ -30,8 +32,31 @@ public class Game_Manager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
-        
-        
+
+        if (Application.isEditor) {
+
+            isPC = true;
+            
+            Debug.Log("Is Editor");
+            
+            
+
+        } else if (Application.isMobilePlatform) {
+
+            isPC = false;
+
+            Debug.Log("Is Mobile");
+            
+
+        } else {
+
+            isPC = true;
+
+            Debug.Log("Is PC");
+
+        }
+
+
     }
 
     public  void LoadScene(string SceneName){

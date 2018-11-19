@@ -23,7 +23,7 @@ public class Forest_Touch_Manager : MonoBehaviour {
 
      public Transform Wind;
 
-     public bool PC = true; 
+   //  public bool PC = true; 
 
 
      // Use this for initialization
@@ -39,7 +39,7 @@ public class Forest_Touch_Manager : MonoBehaviour {
      // Update is called once per frame
      private void Update() {
 
-          if (!PC) {
+          if (!Game_Manager.isPC) {
                //for (int i = 0; i < Input.touchCount; ++i) {
                if (Input.touchCount > 0) {
 
@@ -112,7 +112,7 @@ public class Forest_Touch_Manager : MonoBehaviour {
           }
 
 
-          if (PC) {
+          if (Game_Manager.isPC) {
                if (Input.GetMouseButton(0)) {
 
                     if (Input.GetMouseButtonDown(0)) {
