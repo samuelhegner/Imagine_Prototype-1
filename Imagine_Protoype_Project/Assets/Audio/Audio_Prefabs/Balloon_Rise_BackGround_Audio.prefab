@@ -58,10 +58,10 @@ MonoBehaviour:
     clips:
     - {fileID: 8300000, guid: 26048f43f637e3641a9c1abca38797ad, type: 3}
     - {fileID: 8300000, guid: 7da1bb47b4fd69a42bca71616f7c0e79, type: 3}
-    volume: 1
+    volume: 0.2
     pitch: 1
     spatialBlend: 0
-    loop: 0
+    loop: 1
     mute: 0
     playOnAwake: 1
     source: {fileID: 0}

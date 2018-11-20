@@ -59,10 +59,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: ff293db4299fe9b4b9388264d09d77d2, type: 3}
     - {fileID: 8300000, guid: 885eca2e406ab6e4191553dabcd25118, type: 3}
     - {fileID: 8300000, guid: 76a57c6d0c59df14a85a002a573ff92f, type: 3}
-    volume: 1
+    volume: 0.2
     pitch: 1
     spatialBlend: 0
-    loop: 0
+    loop: 1
     mute: 0
     playOnAwake: 1
     source: {fileID: 0}
